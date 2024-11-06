@@ -25,4 +25,4 @@
 ### 6. Article model bench
 ![alt text](/imgs/article%20model.png)
 ### 7. Our model bench
-![alt text](/imgs/article%20screen.png)
+![alt text](/imgs/our%20bench.png)
