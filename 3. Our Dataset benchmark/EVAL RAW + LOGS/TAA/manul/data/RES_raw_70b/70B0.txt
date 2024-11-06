@@ -1,0 +1,11 @@
+Based on the analysis of the threat report, I believe the incident can be attributed to the Lazarus Group, a North Korean-linked advanced persistent threat (APT) actor.
+
+My reasoning is as follows:
+
+1. The mention of the Andariel group, a subsidiary group of [PLACEHOLDER], is a strong indicator. Andariel is a known subgroup of the Lazarus Group, which has been associated with various cyber attacks, including those targeting the Korean peninsula.
+2. The use of the specific decryption key (74 61 51 04 77 32 54 45 89 95 12 52 12 02 32 73) is similar to keys used by the Andariel group, further solidifying the connection to Lazarus Group.
+3. The TTPs described, such as the use of DLL-type backdoors, encrypted configuration data, and the decryption mechanism, are consistent with those used by the Lazarus Group in previous attacks.
+4. The fact that the malware is developed to evade detection by checking for Korean operating environments and specific Windows versions, as well as the use of batch files for self-deletion, suggests a sophisticated and targeted approach, which is characteristic of Lazarus Group's operations.
+5. The use of a dropper to install the backdoor, the creation of password-protected compressed files, and the exploitation of legitimate system files to disguise the malware are all tactics commonly employed by the Lazarus Group.
+
+While the report does not provide conclusive evidence, the combination of these factors points towards the Lazarus Group as the most likely threat actor responsible for the incident.

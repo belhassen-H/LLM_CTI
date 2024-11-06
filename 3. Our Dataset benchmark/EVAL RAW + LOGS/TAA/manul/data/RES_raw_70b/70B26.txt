@@ -1,0 +1,12 @@
+Based on the analysis, I believe that the threat actor responsible for the Troll Stealer malware is likely APT37, also known as Group 123 or Temp.Duke.
+
+Here's why:
+
+1. **Similarities to AppleSeed and AlphaSeed malware**: The report mentions that Troll Stealer shares code similarities with AppleSeed and AlphaSeed malware, which are known to be used by APT37.
+2. **Use of Go-based malware**: APT37 has been known to use Go-based malware, such as AppleSeed and AlphaSeed.
+3. **Active use of Go-based malware**: The report mentions that APT37 has been actively using Go-based malware, which is consistent with their previous activities.
+4. **Distribution through stolen certificates**: APT37 has been known to use stolen certificates to distribute malware, which is consistent with the tactic used in this campaign.
+5. **Targeting South Korea**: APT37 is a North Korean-backed APT group that has been known to target organizations in South Korea, which aligns with the targeting of GPKI folders in this campaign.
+6. **Use of similar mutexes**: The report mentions that the mutexes used in Troll Stealer are similar to those used in AppleSeed, which is another indicator of APT37's involvement.
+
+While the report suggests that there may be some differences in TTPs between Troll Stealer and previous APT37 campaigns, the overall similarities and consistencies with APT37's known tactics and techniques lead me to believe that APT37 is the likely threat actor behind Troll Stealer.

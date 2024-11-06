@@ -1,0 +1,10 @@
+Based on the threat report, I believe the incident can be attributed to the APT34 (also known as OilRig or HelixKitty) threat actor group. Here's my reasoning:
+
+1. Geographical focus: The report mentions that the campaign is mostly limited to the Middle East and countries in central Asia, which aligns with APT34's known focus on the Middle East, particularly Iran's neighbors.
+2. Target profile: The targets mentioned, such as politicians, diplomats, journalists, activists, and politically active citizens, match APT34's typical victim profile.
+3. TTPs: The use of phishing emails with political themes, one-time addresses, and domains, as well as the multi-stage infection chain, are consistent with APT34's tactics.
+4. Toolset: The use of public services like Pastebin, GitHub, and others for malware delivery and communication with the command server is a characteristic of APT34's operations.
+5. Malware capabilities: The RAT malware described in the report, with its capabilities to download and upload files, launch applications, search for documents, and encrypt information, is similar to the malware used by APT34 in previous campaigns.
+6. File exfiltration: The method of scanning for specific file types (PDF, DOC, DOCX, and XLSX), archiving, and encrypting them before sending them to the command server is similar to APT34's modus operandi.
+
+While the report does not provide direct evidence of APT34's involvement, the combination of these factors and the similarity to previously reported APT34 campaigns (e.g., Operation Parliament) leads me to believe that APT34 is the most likely threat actor responsible for the incident.

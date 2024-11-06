@@ -1,0 +1,15 @@
+Based on the analysis of the threat report, I attribute the incident to the Chinese espionage group APT41 (also known as Double Dragon, BARIUM, and Winnti). 
+
+My reasoning is as follows:
+
+1. The report mentions that the threat actor is known to target a wide range of public and private sector organizations, including nation-state governments, software development companies, computer hardware manufacturers, telecommunications providers, social media companies, and video game companies, which is consistent with APT41's known targets.
+
+2. The report mentions that the threat actor has a track record of compromising both government organizations for espionage and private enterprises for financial gain, which is also consistent with APT41's known tactics.
+
+3. The report mentions the involvement of the U.S. Department of Justice, which has previously indicted individuals associated with APT41.
+
+4. The report highlights the use of overlapping Android signing certificates between WyrmSpy and DragonEgg, which suggests a connection between the two malware. The use of the same infrastructure, including the "vpn2.umisen[.]com" subdomain, further strengthens the attribution to APT41.
+
+5. The technical analysis of WyrmSpy and DragonEgg, including their capabilities, communication with C2 infrastructure, and use of rooting tools, is consistent with APT41's known TTPs.
+
+Overall, the combination of the threat actor's targets, tactics, and techniques, as well as the specific technical details mentioned in the report, points to APT41 as the responsible threat actor.

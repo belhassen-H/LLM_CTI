@@ -1,0 +1,13 @@
+Based on the techniques, tactics, and procedures (TTPs) described in the report, I believe the incident can be attributed to APT 12, also known as Operation Luckycat or PLA Unit 91398.
+
+Here's my reasoning:
+
+1. Geopolitical context: The targeting of Tibetan activists, Indian and Japanese governments, and the use of malicious attachments exploiting vulnerabilities in Microsoft Office are consistent with previous APT 12 campaigns.
+2. Exploitation of CVE-2010-3333: This vulnerability was previously exploited by APT 12 in other campaigns, such as Operation Ababil in 2012.
+3. Use of steganography: APT 12 has been known to use steganography to exfiltrate data in previous attacks.
+4. Infrastructure and C2 techniques: The use of compromised websites and servers as C2 servers, as well as fast-flux DNS, are common techniques employed by APT 12 to hide their infrastructure.
+5. Malware capabilities: The malware's ability to gather system information, steal files, and inject keyboard and mouse events to control the compromised system remotely is consistent with APT 12's malware capabilities.
+6. Anti-debugging and code obfuscation: These techniques are also commonly used by APT 12 to evade detection.
+7. Timeline: The campaign's active period from 2011 to 2012, with a peak in March 2012, matches the timeline of previous APT 12 campaigns.
+
+Overall, the combination of these TTPs and the geopolitical context strongly suggests that APT 12 is responsible for the LuckyCat attack.

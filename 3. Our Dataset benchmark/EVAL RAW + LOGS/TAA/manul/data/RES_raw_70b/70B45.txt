@@ -1,0 +1,13 @@
+Based on the provided threat report, I attribute the incident to the threat actor group known as Platinum or Terminal. Here's my reasoning:
+
+1. **Exploitation of vulnerabilities in Microsoft Office and Adobe Flash**: The report mentions the use of specific CVEs (CVE-2012-1856, CVE-2015-1641, and CVE-2018-4878), which is consistent with Platinum's known modus operandi.
+
+2. **Custom-made malware payloads and variants of XtremeRAT or PlugX**: This aligns with Platinum's attack framework, which is known to involve custom-made Trojans and malware payloads.
+
+3. **Use of phishing emails or infected installers as initial infection vectors**: This matches Platinum's known tactics of using social engineering and exploiting vulnerabilities to gain initial access.
+
+4. **Use of legitimate tools such as PowerShell and Mimikatz for credential harvesting and lateral movement**: Platinum is known to leverage legitimate tools to achieve their objectives, which is a key aspect of their TTPs.
+
+5. **Employment of 'fileless' malware**: The report mentions the use of "fileless" malware, which is a distinctive technique associated with Platinum. This technique allows the malware to reside only in memory, making it difficult to detect.
+
+Given the consistency of these characteristics with Platinum's known TTPs and attack framework, I am confident that the incident described in the report can be attributed to this threat actor group.

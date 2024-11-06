@@ -1,0 +1,10 @@
+Based on the techniques, tactics, and procedures (TTPs) described in the report, I attribute the incident to the "Tsunami" threat actor group. Here's my reasoning:
+
+1. Phishing email with a malicious link: This is a common TTP used by Tsunami to initiate attacks. They often use sophisticated phishing campaigns with custom-made documents and emails to trick victims into installing malware.
+2. Use of legitimate tools to evade detection: Tsunami is known to abuse legitimate tools and utilities, such as ProcDump, to evade detection and increase the likelihood of successful attacks.
+3. Fileless malware: Tsunami has been known to use fileless malware tactics, where malware is stored in memory and not written to disk, making it harder to detect.
+4. Abusing legitimate tools for persistence: The use of mshta.exe to execute scripts and create a backdoor, as well as the abuse of legitimate tools for persistence, is consistent with Tsunami's tactics.
+5. Use of VPN for initial access: Tsunami has been known to use VPN services, such as AnXun VPN, as a means of initial access and to maintain persistence.
+6. Similar timeline: The report mentions the attack started in October 2020 and the AnXun VPN exploitation continued until April 2021. Tsunami's activity has been observed during this timeframe, with earlier attacks in 2020 and later activity in 2021.
+
+While the report does not explicitly mention the threat actor group, the TTPs and techniques used are consistent with those employed by Tsunami. Considered as a whole, it is likely that this incident is the work of Tsunami.

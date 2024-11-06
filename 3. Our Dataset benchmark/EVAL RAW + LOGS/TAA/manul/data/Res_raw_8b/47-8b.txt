@@ -1,0 +1,12 @@
+Based on the analysis of the threat report, I attribute the incident to the [PLACEHOLDER] Advanced Persistent Threat (APT) group. Here's my reasoning:
+
+1. The use of ExileRAT, a Remote Access Trojan (RAT), is a signature trait of the [PLACEHOLDER] APT group. ExileRAT has been linked to several [PLACEHOLDER] APT attacks in the past.
+2. The shared Command and Control (C2) server with the [PLACEHOLDER] APT group suggests a strong connection between the two. This is a typical tactic employed by the [PLACEHOLDER] APT group to maintain persistence and control over compromised systems.
+3. The use of a phishing email with a malicious Microsoft Office document, exploiting the CVE-2017-11882 vulnerability, is a common attack vector used by the [PLACEHOLDER] APT group. This technique allows them to bypass traditional security controls and establish a foothold on the victim's system.
+4. The Domain Generation Algorithm (DGA) technique employed by ExileRAT is also characteristic of the [PLACEHOLDER] APT group's tactics. This technique helps to obfuscate their C2 infrastructure, making it harder for defenders to identify and track.
+5. The use of a compromised website as a C2 server, employing the Fast Flux technique, is another signature trait of the [PLACEHOLDER] APT group. This provides them with a level of anonymity and makes it difficult for law enforcement and security researchers to trace the activity back to their infrastructure.
+6. The User-Agent string 'Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko' is a common Windows configuration used by the [PLACEHOLDER] APT group.
+7. The presence of the 'applescript' User-Agent string and the string 'Luckycat' in C2 communication are additional fingerprints that point towards the involvement of the [PLACEHOLDER] APT group.
+8. The timing of the attack, observed between May 2020 and August 2020 with a peak in activity in June 2020, falls within the known timeframe and patterns of previous [PLACEHOLDER] APT activities.
+
+Considering these TTPs, I conclude that the incident is likely the work of the [PLACEHOLDER] Advanced Persistent Threat (APT) group.

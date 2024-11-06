@@ -1,0 +1,11 @@
+Based on the analysis of the threat report, I believe the incident can be attributed to the Iranian-backed APT group known as MuddyWater.
+
+Here's my reasoning:
+
+1. **Geographic connection**: The use of Iranian IP addresses (185.189.65.54 and 141.136.44.145) suggests a connection to Iran, which is consistent with MuddyWater's known Iranian ties.
+2. **Malware signature**: The presence of the 'LemonDuck' RAT is a strong indicator of MuddyWater's involvement. LemonDuck is a known malware family associated with MuddyWater campaigns.
+3. **TTPs**: The use of spear phishing, vulnerability exploitation, and lateral movement are all tactics commonly employed by MuddyWater. The group is known for its ability to adapt and evolve its techniques to evade detection.
+4. **Cloud-based C2 infrastructure**: MuddyWater has been observed using cloud-based services to host its C2 infrastructure, a technique dubbed "living off the cloud" in this report. This is a known TTP of MuddyWater, which has used cloud services to maintain command and control over its malware.
+5. **Attack timeline**: The dates of the attack (February 2022 - April 2022) are consistent with MuddyWater's known activity patterns.
+
+While the report removed the threat actor group name, the combination of these factors points strongly towards MuddyWater as the responsible party.

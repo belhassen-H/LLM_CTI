@@ -1,0 +1,10 @@
+Based on the analysis of the attack report, I attribute the incident to the Dragonfly (also known as Energetic Bear) threat actor group. Here's my reasoning:
+
+1. **Targeting of critical infrastructure**: Dragonfly is known to target critical infrastructure, particularly in the energy and transportation sectors, which aligns with the campaign described in the report.
+2. **Exploitation of vulnerabilities**: Dragonfly has been observed exploiting vulnerabilities in unpatched software, including CVE-2017-0199, which is a known vulnerability exploited by this group.
+3. **Living off the Land (LotL) tactics**: Dragonfly is known to use LotL tactics to evade detection, by leveraging existing system tools and utilities to carry out malicious activities, which is consistent with the report.
+4. **Phishing and malicious document delivery**: Dragonfly has been observed using spear phishing and delivering malicious documents, such as Microsoft Word documents, to compromise systems, which aligns with the attack chain described in the report.
+5. **Use of open-source tools**: Dragonfly is known to use open-source tools, such as PsExec and Mimikatz, to move laterally within networks and exfiltrate sensitive data, which is consistent with the report.
+6. **TTPs alignment**: The TTPs described in the report, including the use of phishing, exploitation of vulnerabilities, and LotL tactics, align with those attributed to Dragonfly.
+
+Given these similarities, I believe that the threat actor responsible for this campaign is likely Dragonfly (Energetic Bear).

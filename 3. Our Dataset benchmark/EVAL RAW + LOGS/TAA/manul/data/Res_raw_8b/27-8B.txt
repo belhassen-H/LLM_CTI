@@ -1,0 +1,12 @@
+Based on the analysis of the report, I attribute the incident to the [PLACEHOLDER] group, which is a threat group supported by North Korea.
+
+The reasons for attributing the incident to [PLACEHOLDER] group are as follows:
+
+1. The report describes the use of Meterpreter, which is a backdoor provided by Metasploit, a penetration testing framework. The [PLACEHOLDER] group has been known to use Meterpreter in their attacks, as mentioned in the ASEC Blog.
+2. The method of delivering the malware, using a Powershell command to download a payload from an external URL, is consistent with the tactics and procedures (TTPs) used by [PLACEHOLDER] group.
+3. The use of proxy malware, which is a unique trait of [PLACEHOLDER] group's attacks, is also mentioned in the report.
+4. The GoLang development of the Meterpreter Stager and proxy malware is a new technique that has been observed in [PLACEHOLDER] group's attacks.
+5. The use of a C2 address that has been used by [PLACEHOLDER] group in the past is also mentioned in the report.
+6. The signature "aPpLe" used in the proxy malware is likely a verification process used by [PLACEHOLDER] group.
+
+Overall, the TTPs and techniques used in the incident, including the use of Meterpreter, proxy malware, and GoLang development, are consistent with [PLACEHOLDER] group's methods and attributes, and therefore, I attribute the incident to [PLACEHOLDER] group.

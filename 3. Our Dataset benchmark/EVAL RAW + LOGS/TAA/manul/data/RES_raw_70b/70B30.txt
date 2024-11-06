@@ -1,0 +1,12 @@
+Based on the techniques, tactics, and procedures (TTPs) described in the report, I believe the threat actor responsible for this incident is APT37 (also known as Reaper or Group123).
+
+Here's my reasoning:
+
+1. **Geopolitical focus**: APT37 is known to primarily target organizations and individuals in South Asia, which aligns with the report's mention of targets in India, Pakistan, Sri Lanka, Bangladesh, and other South Asian countries.
+2. **Use of spear phishing emails**: APT37 frequently employs spear phishing emails as an initial infection vector, which is consistent with the report's description of the attack chain starting with malicious attachments in spear phishing emails.
+3. **Malware similarities**: The report highlights the modular architecture, use of multiple programming languages, and various TTPs that are similar to those associated with APT37's malware, such as the use of Google Drive to store C2 server addresses and the implementation of file collection, keylogging, and reverse shell functionalities.
+4. **Infrastructure and C2 server patterns**: The report's description of the C2 server infrastructure, including the use of domain generation algorithms (DGAs) and the format of the C2 server addresses, is consistent with APT37's known infrastructure patterns.
+5. **Lack of clear motive**: APT37 is known to be a highly adaptive and opportunistic actor, often without a clear motive for their attacks. The report's mention of the malware's behavior in response to security solutions and the inclusion of expiry dates for certain security products also aligns with APT37's tactics.
+6. **Code overlap**: The report's mention of specific strings and code fragments, such as the inclusion of FASM (Fast Assembly) directives, is similar to code patterns observed in APT37's malware.
+
+While there may be some differences in the specific malware samples and TTPs used, the overall pattern of activity and the similarity to known APT37 malware and infrastructure lead me to believe that APT37 is the most likely threat actor responsible for this incident.

@@ -1,0 +1,11 @@
+Based on the techniques, tactics, and procedures (TTPs) described in the threat report, I believe the incident can be attributed to the Winnti Group, also known as A41.
+
+My reasoning is as follows:
+
+1. **Exploitation of a vulnerability in a Taiwanese software company's web application**: The Winnti Group is known to target organizations in Taiwan and has been involved in previous campaigns exploiting vulnerabilities in web applications.
+2. **Use of a custom protocol for C2 communication and TLS poisoning**: The Winnti Group has been observed using custom protocols and encryption techniques to evade detection in previous campaigns.
+3. **DLL hijacking and anti-forensic techniques**: The use of DLL hijacking and anti-forensic techniques, such as deleting system logs and modifying file timestamps, are consistent with the Winnti Group's TTPs.
+4. **Backdoor creation and espionage-oriented motives**: The creation of a backdoor on infected systems and the focus on stealing sensitive information and intellectual property are consistent with the Winnti Group's espionage-oriented motives.
+5. **Timeline of the attack**: The attack's fingerprint dates, ranging from November 2020 to March 2021, match the timeframe of previous Winnti Group campaigns.
+
+While [PLACEHOLDER] was used to replace the threat actor group name, the combination of TTPs and campaign characteristics described in the report strongly suggest that the Winnti Group, also known as A41, is responsible for the PortDoor malware attack.

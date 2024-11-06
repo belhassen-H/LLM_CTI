@@ -1,0 +1,12 @@
+Based on the TTPs and information described in the report, I attribute the incident to the threat actor group tracked as "[PLACEHOLDER]", which is believed to be of Pakistani origin.
+
+Here's my reasoning:
+
+1. The use of SpyNote Android malware: SpyNote malware has been linked to Pakistani threat actors, specifically the "Pakistan-based threat actor group" by various sources, including Trend Micro and Symantec.
+2. The combination of techniques used to spread the malware: The report mentions phishing attacks and downloading/installing malware-laden APK files, which are common tactics used by [PLACEHOLDER] in their operations. [PLACEHOLDER] has been known to use a range of attack vectors, including phishing, malvertising, and exploit kits, to infect victims with malware.
+3. The use of Domain Generation Algorithm (DGA) to communicate with C2 servers: [PLACEHOLDER] has been known to use DGA to evade detection and make it difficult for security researchers to track and block their communication.
+4. The resurgence in infections following the leak of the malware's source code: The report mentions that the malware saw a surge in infections in 2020, which is consistent with the leak of the malware's source code in 2016. This suggests that [PLACEHOLDER] took advantage of the leaked source code to update and improve their malware.
+5. The submission of malware samples to VirusTotal from various countries: The report mentions that malware samples were submitted to VirusTotal from countries including the United States, India, and Pakistan. This suggests that [PLACEHOLDER] has a global reach and is targeting victims across multiple regions.
+6. The attribution to a Pakistani origin threat actor group: The report mentions that the campaign is attributed to a threat actor group tracked as "[PLACEHOLDER]", which is believed to be of Pakistani origin. This matches the known affiliation of the threat actor group behind the SpyNote malware.
+
+Based on these factors, I conclude that the incident is likely attributed to [PLACEHOLDER], a Pakistani origin threat actor group known for their use of SpyNote malware and other malicious activities.

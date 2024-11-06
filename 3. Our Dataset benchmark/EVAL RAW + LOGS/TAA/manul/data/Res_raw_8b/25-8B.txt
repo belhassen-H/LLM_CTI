@@ -1,0 +1,13 @@
+Based on the techniques, tactics, and procedures (TTPs) described in the report, I attribute the incident to North Korea's Lazarus Group (also known as APT38).
+
+The report highlights several key indicators that point to Lazarus Group's involvement:
+
+1. The use of tailored reconnaissance toolkit, specifically the RandomQuery malware, which is known to be used by Lazarus Group.
+2. The distribution of the malware through CHM files, which is a tactic commonly employed by Lazarus Group.
+3. The use of less common top-level domains (TLDs) such as .space, .asia, .click, and .online, which is a common practice for Lazarus Group's malicious infrastructure.
+4. The phishing emails sent from a Daum email account, which is a typical tactic used by Lazarus Group.
+5. The targeting of organizations and individuals related to North Korea, specifically human rights activists and defectors, which is a frequent target of Lazarus Group's operations.
+6. The use of VBScript and Internet Explorer configurations, which is also consistent with Lazarus Group's TTPs.
+7. The frequent exfiltration of system and hardware information, as well as the use of WMI classes to gather information, are also typical of Lazarus Group's reconnaissance operations.
+
+Overall, the combination of these indicators strongly suggests that the incident was carried out by Lazarus Group, a North Korean state-sponsored APT group known for its targeted attacks and sophisticated tactics.

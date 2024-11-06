@@ -1,0 +1,9 @@
+Based on the information provided in the report, I believe the threat actor responsible for this ransomware campaign is the "Ragnar Locker" group. Here's my reasoning:
+
+1. **DLL Hijacking**: This technique is a hallmark of the Ragnar Locker group, which has been observed using it in several campaigns to exploit vulnerabilities in legitimate libraries, such as the MSCTL library mentioned in the report.
+2. **Phishing emails with malicious Office documents**: Ragnar Locker is known for using phishing emails with malicious Office documents to deliver their malware payloads. This tactic is consistent with their modus operandi.
+3. **Use of loaders**: Ragnar Locker frequently uses loaders to deliver their ransomware payloads, which is consistent with the report's description of a loader being used to drop the ransomware.
+4. **"Living off the land" (LOTL) tactic**: Ragnar Locker is known for using LOTL tactics, which involve using existing system tools and binaries to download and execute their malware payloads. This tactic is mentioned in the report as being used in this campaign.
+5. **Active period**: The campaign's active period between March 2020 and May 2020 is also consistent with Ragnar Locker's known activity during that timeframe.
+
+While there may be other threat actors that use similar TTPs, the combination of these factors points to Ragnar Locker as the most likely threat actor responsible for this ransomware campaign.

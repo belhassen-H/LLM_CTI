@@ -1,0 +1,11 @@
+Based on the analysis of the threat report, I attribute the incident to the Sandworm team (also known as Electric Monkey or Voodoo Bear), a Russian hacking group known for its destructive attacks on Ukrainian targets.
+
+My reasoning for this attribution is as follows:
+
+1. **TTPs**: The use of WinRAR to delete files and the exploitation of VPN accounts lacking MFA are similar to previous attacks attributed to Sandworm. The group is known for its creative use of legitimate tools and techniques to evade detection.
+2. **Scripting techniques**: The use of BAT scripts on Windows and Bash scripts on Linux systems, as well as the employment of the "dd" utility to overwrite files, is consistent with Sandworm's modus operandi.
+3. **Targeting**: The targeting of Ukrainian government devices and the similarity to a previous destructive attack on the Ukrainian state news agency "Ukrinform" in January 2023, which was also attributed to Sandworm, suggests a continued focus on Ukrainian targets.
+4. **Tooling**: The use of modified versions of scripts, such as RoarBat, is a common tactic employed by Sandworm to evade detection and attribution.
+5. **IP addresses**: The fact that the IP addresses used in this attack are similar to those used in previous Sandworm attacks provides further evidence of the group's involvement.
+
+While the report does not provide explicit attribution to Sandworm, the cumulative evidence of TTPs, scripting techniques, targeting, tooling, and IP addresses points to the involvement of this Russian hacking group.

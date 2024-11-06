@@ -1,0 +1,13 @@
+Based on the TTPs described in the threat report, I believe the incident can be attributed to the threat actor group known as MuddyWater.
+
+Here's my reasoning:
+
+1. **Spear phishing with malicious Office documents**: MuddyWater is known to use spear phishing campaigns to deliver malicious documents, often exploiting vulnerabilities in Microsoft Office products.
+2. **CVE-2017-11882 exploitation**: MuddyWater has been observed exploiting this specific vulnerability in past campaigns.
+3. **Spoolsv.exe payload**: This payload is a common trait of MuddyWater attacks, which often use Spoolsv.exe to download and execute malicious EXE files.
+4. **DLL hijacking and code injection**: MuddyWater is known to use DLL hijacking techniques to inject malicious code into legitimate processes, such as svchost.exe.
+5. **Evasion techniques**: The use of code obfuscation, anti-debugging, and encrypted communication with C2 servers are all typical evasion techniques employed by MuddyWater.
+6. **DGA-based C2 infrastructure**: MuddyWater has been observed using DGA algorithms to generate domains for their C2 infrastructure, making it difficult to track and block their malicious activity.
+7. **Timeline**: The attack fingerprint dating back to 2020, with activity observed in 2021, aligns with known MuddyWater campaigns during this time period.
+
+Taking into account these TTPs, I believe the incident can be attributed to MuddyWater, a threat actor group known for targeting organizations in the Middle East and leveraging these specific techniques in their attacks.

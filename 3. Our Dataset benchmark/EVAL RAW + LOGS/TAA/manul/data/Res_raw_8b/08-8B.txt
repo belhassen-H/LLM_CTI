@@ -1,0 +1,9 @@
+Based on the analysis of the threat report, I attribute the incident to OilRig, also known as APT34, Lyceum, or Siamesekitten. Here's why:
+
+1. Technical similarities: The report highlights several technical similarities between the Solar and Mango backdoors, as well as the VBS droppers used in both campaigns. These similarities include the use of URIs with simple upload and download schemes, similar obfuscation techniques, and the deployment of post-compromise tools.
+2. Code similarities: The report notes that the code for the Mango backdoor has similarities with Solar, which further supports the attribution to OilRig.
+3. Use of compromising legitimate websites: OilRig's modus operandi involves compromising legitimate websites to use as command and control (C2) servers, which is consistent with the report's findings.
+4. Targeting of Israeli organizations: OilRig has been known to target Middle Eastern governments and organizations, including Israeli entities, which aligns with the report's observation that the campaigns targeted Israeli organizations exclusively.
+5. Use of similar post-compromise tools: The report notes the use of similar post-compromise tools, such as SampleCheck5000, Chrome-data dumpers, and Windows Credential Manager stealers, in both campaigns, which is consistent with OilRig's tactics, techniques, and procedures (TTPs).
+
+Given the overwhelming evidence of technical, code, and behavioral similarities, I am confident in attributing the incident to OilRig, a cyberespionage group commonly believed to be based in Iran.

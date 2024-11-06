@@ -1,0 +1,11 @@
+Based on the technical details and context provided in the report, I attribute the incident to the Equation Group, a known threat actor believed to be affiliated with the National Security Agency (NSA) of the United States.
+
+Here's my reasoning:
+
+1. The report mentions that the backdoor, Bvp47, is a "top-tier APT backdoor" and is used by the "The [PLACEHOLDER]" group. Later, it is explicitly stated that the [PLACEHOLDER] group is the Equation Group, which is believed to be affiliated with the NSA.
+2. The report highlights the advanced features of Bvp47, including advanced covert channel behavior, code obfuscation, system hiding, and self-destruction design. These features are consistent with the known capabilities of the Equation Group's malware.
+3. The report references the "Prism" incident and the documents leaked by Edward Snowden, which exposed the NSA's network attack platform operation manual. This further strengthens the connection between the Equation Group and the NSA.
+4. The report mentions the scale and duration of the attack, stating that it lasted for over 10 years and affected 287 targets in 45 countries. This is consistent with the known capabilities and scope of the Equation Group's operations.
+5. The code name "Operation Telescreen" given by Pangu Lab to the Bvp47 incidents is also notable. "Telescreen" is a reference to the novel "1984" by George Orwell, which is a possible nod to the Equation Group's capabilities for monitoring and control.
+
+Overall, based on the technical details and context provided in the report, I conclude that the incident is attributed to the Equation Group, a known threat actor believed to be affiliated with the National Security Agency (NSA) of the United States.

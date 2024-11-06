@@ -1,0 +1,14 @@
+Based on the information provided, I believe the threat actor responsible is DarkHotel.
+
+My reasoning is as follows:
+
+* The report mentions that the threat actor is a sophisticated and active APT group, known for finding and taking advantage of previously unknown vulnerabilities in common software (0days).
+* The group is known to be comprised of Korean-speakers and works on behalf of a nation-state.
+* The report mentions the use of malware such as Asruex, Parastic Beast, Inexsmar, Retro backdoor, Gh0st RAT, and the Ramsay toolkit, which are all associated with DarkHotel.
+* The tactics, techniques, and procedures (TTPs) described, such as exploiting vulnerabilities in Microsoft Office, using .HTA files, and infecting hotel WiFi networks, are consistent with DarkHotel's known TTPs.
+* The report mentions the use of spear-phishing emails with .RAR archives, which is a known tactic used by DarkHotel.
+* The geographic focus of the attacks, including Asia, Europe, North America, and Africa, with a primary focus on North Korea, South Korea, Japan, and China, is consistent with DarkHotel's known areas of operation.
+* The report mentions the use of 0day exploits, including CVE-2018-8174, CVE-2018-8373, CVE-2019-13720, CVE-2019-1458, and CVE-2020-0674, which are all associated with DarkHotel.
+* The report also mentions the use of encryption, obfuscation, and singular attacks to avoid exposing stolen certificates or 0day vulnerabilities, which is consistent with DarkHotel's tactics.
+
+Overall, the combination of these factors leads me to conclude that the threat actor responsible is DarkHotel.

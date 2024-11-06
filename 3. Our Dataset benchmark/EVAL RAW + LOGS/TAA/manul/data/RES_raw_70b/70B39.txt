@@ -1,0 +1,10 @@
+Based on the analysis of the threat report, I believe the threat actor responsible for Operation [PLACEHOLDER] is the Desert Falcons (also known as DHS). Here's why:
+
+1. **Geographical targeting**: The report mentions that the campaign primarily targets organizations in the Middle East, specifically in Israel. Desert Falcons are known to target Middle Eastern countries, including Israel.
+2. **Phishing tactics**: The use of phishing emails with lures such as pornographic videos and auto accident footage is consistent with Desert Falcons' tactics.
+3. **Malware characteristics**: The malware's ability to steal information, exfiltrate data, and communicate with command and control servers is similar to Desert Falcons' malware seen in previous campaigns.
+4. **TTPs**: The infection chain, including the use of RAR archives, SCR files, and executable files with legitimate-sounding names, is similar to Desert Falcons' tactics.
+5. **Encryption scheme**: Although the encryption scheme has been updated, the use of AES-256 in CBC mode and a customized base64 encoding is similar to Desert Falcons' encryption schemes seen in previous campaigns.
+6. **C2 communication**: The communication with the command and control servers, including the use of HTTP GET and POST requests, is consistent with Desert Falcons' C2 communication patterns.
+
+While the report highlights some changes in the TTPs, such as the use of links instead of attachments and changes in the lures, the overall tactics and techniques are consistent with Desert Falcons' modus operandi. Therefore, I believe Desert Falcons are responsible for Operation [PLACEHOLDER].

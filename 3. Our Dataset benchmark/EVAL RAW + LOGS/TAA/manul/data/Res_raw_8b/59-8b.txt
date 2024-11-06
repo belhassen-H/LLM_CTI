@@ -1,0 +1,14 @@
+Based on the techniques, tactics, and procedures (TTPs) described in the report, I attribute the incident to the threat actor group known as APT41 (also referred to as Zirconium).
+
+Here's my reasoning:
+
+1. Spear phishing emails with malicious Microsoft Office documents exploiting a specific vulnerability: APT41 has been known to use spear phishing emails with malicious Office documents to deliver malware in the past.
+2. Use of the CVE-2017-11882 vulnerability: This vulnerability is an older one, and APT41 has been linked to attacks exploiting older vulnerabilities.
+3. Delivery of the Spoolsv.exe payload and subsequent download and execution of a malicious EXE file: APT41 has used similar tactics in the past, such as delivering payloads via print spooler (Spoolsv.exe) and then executing additional malware.
+4. DLL hijacking technique: APT41 has been known to use DLL hijacking to inject malicious code into legitimate processes.
+5. Establishment of persistence and data exfiltration: APT41 typically aims to maintain persistence on compromised machines and exfiltrate sensitive information.
+6. Code obfuscation, anti-debugging, and encrypted communication with the C2 server: These techniques are consistent with APT41's efforts to evade detection and maintain stealth during their attacks.
+7. Utilization of multiple C2 servers and Domain Generation Algorithm (DGA) technique: APT41 has been observed using DGA to generate domain names for its C2 servers, making it challenging to track and block the malicious activity.
+8. Long-term attack fingerprint: APT41's tactics often involve prolonged attacks, with a notable 2020 attack campaign lasting several months.
+
+Based on these similarities, I believe the threat report is consistent with an attack by APT41, also known as Zirconium.

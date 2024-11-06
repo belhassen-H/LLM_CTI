@@ -1,0 +1,9 @@
+Based on the techniques, tactics, and procedures (TTPs) described in the report, I attribute the incident to the Chinese espionage group known as APT10 or Winnti, also referred to as Double Dragon, BARIUM, or [PLACEHOLDER].
+
+The TTPs mentioned in the report, such as the use of overlapping Android signing certificates, the connection between the command-and-control (C2) infrastructure and Chengdu 404, and the registrant information listed in the WHOIS record, are all consistent with APT10's known methods of operation.
+
+The report also notes that APT10 has been active since 2012 and has been involved in compromising over 100 public and private organizations, including government organizations, software development companies, and telecommunications providers. This is consistent with APT10's known targeting of high-value targets with sensitive data.
+
+Additionally, the report mentions the use of modules to hide malicious intentions and avoid detection, which is a common TTP used by APT10 to evade detection by security researchers and law enforcement.
+
+Overall, the TTPs and tactics described in the report are consistent with APT10's known methods of operation, and I believe that this group is responsible for the incident.

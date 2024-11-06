@@ -1,0 +1,10 @@
+Based on the analysis of the threat report, I attribute the incident to the "Charming Kitten" threat actor group. Here's my reasoning:
+
+1. **Targeting**: The incident targets Tibetan victims, which is consistent with Charming Kitten's known targeting of human rights organizations, government agencies, and NGOs.
+2. **TTPs**: The report describes techniques used by the threat actor, such as exploit of a known vulnerability (CVE-2017-11882), use of a malicious DLL file using Process Hollowing, and encrypted C2 communication using a custom protocol. These TTPs are similar to those employed by Charming Kitten in previous attacks.
+3. **Malware analysis**: The report mentions the use of a custom encryption algorithm and a hardcoded RSA key for C2 communication, which is consistent with Charming Kitten's use of custom malware and encryption techniques in previous campaigns.
+4. **LOTL techniques**: The incident's use of Living Off The Land (LOTL) techniques, utilizing legitimate system tools and binaries to perform malicious activities, is also consistent with Charming Kitten's tactics.
+5. **Timing**: The attack's dates, spanning from 2020 to February 2022, fit within the timeframe of Charming Kitten's known activities.
+6. **Nation-state sponsor**: The report mentions that the threat actor is likely sponsored by the Chinese government, which aligns with Charming Kitten's suspected Chinese government involvement.
+
+While the report does not mention specific indicators of compromise (IOCs) or malware names, the combination of techniques, tactics, and procedures described is consistent with Charming Kitten's known capabilities and TTPs.

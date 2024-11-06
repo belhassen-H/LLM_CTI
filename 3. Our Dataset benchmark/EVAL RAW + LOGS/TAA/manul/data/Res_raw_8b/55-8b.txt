@@ -1,0 +1,11 @@
+Based on the techniques, tactics, and procedures (TTPs) described in the threat report, I attribute the incident to the DarkHotel threat actor group.
+
+The reasons for attribution are as follows:
+
+1. The use of spear phishing emails and exploit kits to deliver malware is consistent with DarkHotel's modus operandi.
+2. The targeting of high-value individuals, such as business executives and government officials, during their travel, is a hallmark of the DarkHotel group.
+3. The use of anti-forensic techniques like code injection and process hollowing to evade detection by security software is also consistent with DarkHotel's tactics.
+4. The use of Domain Generation Algorithm (DGA) and SSL/TLS encryption to create new Command and Control (C2) domains and encrypt communications with the C2 servers, respectively, are also characteristic of DarkHotel's TTPs.
+5. The time frame of the attack campaign, from 2012 to 2017, is also consistent with DarkHotel's known activity during this period.
+
+Overall, while the exact details of the attack may differ from previous DarkHotel incidents, the combination of TTPs and targeting strategies described in the report are strongly suggestive of the DarkHotel group's involvement.

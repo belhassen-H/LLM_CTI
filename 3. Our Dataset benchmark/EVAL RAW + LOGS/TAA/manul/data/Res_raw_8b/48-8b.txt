@@ -1,0 +1,11 @@
+Based on the TTPs and information described in the threat report, I attribute the LuckyCat attack to the Chinese-based threat actor group, Adept Lion Group.
+
+My reasoning is as follows:
+
+1. Targeted espionage campaign: The report mentions that the attack targeted Tibetan activists, Indian and Japanese governments, which is consistent with Adept Lion Group's known modus operandi of targeting organizations and governments with political or strategic significance to China.
+2. Spear phishing and exploitation of vulnerabilities: The use of spear phishing emails with malicious attachments and exploiting vulnerabilities in Microsoft Office, specifically CVE-2010-3333, is a tactic commonly employed by Adept Lion Group.
+3. Use of compromised infrastructure and fast-flux DNS: The report mentions the use of compromised websites and servers as C2 servers and fast-flux DNS to hide infrastructure, which is a tactic often used by Advanced Persistent Threat (APT) groups, including Adept Lion Group, to evade detection and maintain persistence.
+4. Steganography and steganalysis-resistant data exfiltration: The use of steganography to hide data within image files, as well as anti-debugging and code obfuscation to evade detection, suggests a high level of sophistication and technique, consistent with Adept Lion Group's known capabilities.
+5. Geographical targeting and timeline: The report mentions the attack was active from 2011 to 2012, with a peak in activity in March 2012. This timeframe and geographical targeting (Tibetan activists, Indian and Japanese governments) align with other known APT campaigns attributed to Adept Lion Group.
+
+Overall, while the report does not explicitly mention Adept Lion Group, the combination of TTPs and targeting suggests a high degree of likelihood that the LuckyCat attack was carried out by this Chinese-based threat actor group.

@@ -1,0 +1,12 @@
+Based on the report, I attribute the incident to the North Korean-backed Advanced Persistent Threat (APT) group, Lazarus Group. Here's my reasoning:
+
+1. **Tailored exploit kit**: The use of a customized exploit kit to target a specific vulnerability (CVE-2018-8174) suggests a high level of sophistication and customization, which is consistent with the tactics of the Lazarus Group, known for developing custom-made malware.
+2. **Exploit of a publicly known vulnerability**: The targeting of a previously discovered vulnerability (CVE-2018-8174) is also consistent with Lazarus Group's techniques, as they have been known to exploit publicly known vulnerabilities in the past.
+3. **Use of a compromised website**: The report's description of the exploit kit being hosted on a compromised website is a common tactic used by the Lazarus Group, who have been known to use compromised websites as a means of distributing their malware.
+4. **Spear-phishing emails**: The use of spear-phishing emails to trick victims into visiting the compromised website is also consistent with Lazarus Group's tactics, as they have been known to use this technique to deliver malware.
+5. **RAT capabilities**: The malicious payload described as a Remote Access Trojan (RAT) capable of stealing sensitive information, monitoring user activity, and providing backdoor access to the attackers is consistent with the capabilities of Lazarus Group's malware.
+6. **Code obfuscation, anti-debugging, and anti-forensic techniques**: The use of these techniques to evade detection is a common approach used by the Lazarus Group to avoid detection.
+7. **Chinese C2 servers**: The location of the Command and Control (C2) servers in China is also consistent with Lazarus Group's tactics, as they have been known to use servers hosted in China to command and control their malware.
+8. **Mix of Korean and English in the malicious payload**: The mix of languages in the payload further supports the involvement of the Lazarus Group, as they have been known to use a mix of languages in their malware.
+
+Based on these factors, I believe it is highly likely that the Lazarus Group is responsible for the cyber incident described in the report.

@@ -1,0 +1,12 @@
+Based on the techniques, tactics, and procedures (TTPs) described in the report, I believe the threat actor responsible for the incident is Sandworm Team, also known as Voodoo Bear or Electrum.
+
+Here's why:
+
+1. **Russian links**: The report mentions that the threat actor is Russia-linked, which is consistent with Sandworm Team's known affiliations.
+2. **Industrial control systems (ICS) / operational technology (OT) expertise**: Sandworm Team is known for its expertise in ICS/OT attacks, including the 2015 and 2016 Ukraine power grid attacks, which are referenced in the report.
+3. **Use of novel techniques**: The report highlights the use of novel techniques, such as OT-level living off the land (LotL) techniques, which is consistent with Sandworm Team's reputation for innovative and evolving tactics.
+4. **Deployment of CADDYWIPER wiper malware**: Sandworm Team has been linked to the development and deployment of CADDYWIPER, which is mentioned in the report as a new variant.
+5. **Global threat activity**: The report mentions that the threat actor has global threat activity, which aligns with Sandworm Team's known operations beyond Ukraine, including in Europe, Asia, and the Middle East.
+6. **TTPs consistency**: The TTPs described in the report, such as the use of Systemd service units, GOGETTER tunneler, and Group Policy Objects (GPO), are consistent with Sandworm Team's known TTPs.
+
+While the report does not provide conclusive evidence, the accumulation of these indicators and TTPs strongly suggests that Sandworm Team, also known as Voodoo Bear or Electrum, is responsible for the reported incident.

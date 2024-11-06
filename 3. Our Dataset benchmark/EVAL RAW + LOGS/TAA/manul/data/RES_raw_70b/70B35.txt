@@ -1,0 +1,9 @@
+Based on the provided threat report, I attribute the incident to Molerats (aka The Gaza Cybergang) due to the following reasons:
+
+1. **Geopolitical focus**: The report highlights that the campaign targets high-ranking political figures and government officials in the Middle East, which aligns with Molerats' known politically motivated operations in the region.
+2. **Phishing themes**: The use of political phishing themes, such as Israeli-Saudi relations, Hamas elections, and recent meetings between Middle Eastern leaders, is consistent with Molerats' previous tactics.
+3. **Malware characteristics**: The description of the newly discovered backdoors, SharpStage and DropBook, and the MoleNet downloader, shares similarities with Molerats' previous tools, such as the Spark backdoor. The use of Dropbox for data exfiltration and storing espionage tools is also reminiscent of Molerats' tactics.
+4. **Connection to Pierogi backdoor**: The correlation between the newly discovered backdoors and the Pierogi backdoor, which was previously attributed to Molerats, suggests a common threat actor or teams operating on behalf of similar interests.
+5. **Use of Quasar RAT**: The employment of the Quasar RAT, which has been used by Molerats in the past, further supports the attribution to this threat actor group.
+
+Given these similarities in TTPs, phishing themes, and malware characteristics, I conclude that the incident is likely the work of Molerats (aka The Gaza Cybergang).

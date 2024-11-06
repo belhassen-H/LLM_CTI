@@ -1,0 +1,11 @@
+Based on the report, I attribute the cyber incident to the [PLACEHOLDER] group. The use of DLL Hijacking, exploitation of a vulnerability in the Windows 'MSCTL' library, and the deployment of a ransomware payload with a loader are all techniques that are commonly associated with the [PLACEHOLDER] group.
+
+The [PLACEHOLDER] group is known for their use of DLL Hijacking, which is a technique where attackers replace a legitimate Dynamic Link Library (DLL) file with a malicious one, allowing them to execute arbitrary code. This is consistent with the report's description of the attackers using DLL Hijacking to exploit the vulnerability in the Windows 'MSCTL' library.
+
+Additionally, the [PLACEHOLDER] group is known for their use of phishing emails with malicious Microsoft Office documents to deliver malware payloads. This is consistent with the report's description of the attackers sending phishing emails with malicious Microsoft Office documents to drop the malware payload.
+
+The report's description of the attackers using Living Off the Land (LOTL) to use existing system tools and binaries to download and execute the ransomware payload is also consistent with the [PLACEHOLDER] group's tactics. LOTL is a technique that is often used by the [PLACEHOLDER] group to maintain persistence and evade detection.
+
+Lastly, the campaign's time frame, from March 2020 to May 2020, is also consistent with the [PLACEHOLDER] group's attack patterns.
+
+Based on these similarities in techniques, tactics, and procedures, I attribute the cyber incident to the [PLACEHOLDER] group.

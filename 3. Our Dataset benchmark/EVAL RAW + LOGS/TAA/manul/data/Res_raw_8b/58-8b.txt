@@ -1,0 +1,14 @@
+Based on the TTPs described in the report, I believe the threat actor responsible for the incident is REvil (also known as Sodinokibi). Here's my reasoning:
+
+1. Use of vulnerability exploitation, RDP brute-forcing, and phishing for initial access: REvil has been known to use these techniques in the past to gain access to victim networks.
+2. Use of Cobalt Strike beacons for command and control: Cobalt Strike is a commercial post-exploitation framework commonly used by sophisticated threat actors, including REvil.
+3. Use of PsExec for lateral movement: PsExec is a legitimate tool that can be used for lateral movement, and REvil has been observed using it in previous attacks.
+4. Use of Mimikatz to harvest credentials: Mimikatz is a well-known credential harvesting tool, and REvil has been known to use it in its attacks.
+5. Delivery of ransomware payload via phishing email with macro: REvil has been known to deliver its ransomware payload via phishing emails with macros in the past.
+6. Use of AES-256 encryption: REvil's ransomware has been known to use AES-256 encryption in the past.
+7. Demands for payment in Bitcoin: REvil has been known to demand payment in Bitcoin in the past.
+8. Activity spike in mid-August: REvil has been known to be active during the summer months, and an activity spike in mid-August is consistent with their typical operating pattern.
+
+The specific ransomware executable 'lockfile.exe' and phishing email subject lines 'Payment Advice' and 'Invoice for recent order' are also consistent with REvil's TTPs.
+
+While the report does not specifically mention the [PLACEHOLDER] group, the TTPs and techniques described are highly consistent with those used by REvil. Therefore, I believe it is likely that REvil is responsible for the incident.

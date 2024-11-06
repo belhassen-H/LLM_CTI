@@ -1,0 +1,15 @@
+Based on the analysis of the threat report, I attribute the incident to APT37, also known as Starcruft, a North Korean state-sponsored threat actor. 
+
+My reasoning is as follows:
+
+1. **Exploitation of CVE-2017-11882 vulnerability**: APT37 is known to exploit known vulnerabilities in their attacks, and this specific vulnerability is a common exploit used by this group.
+
+2. **Use of malicious Office documents and macros**: APT37 frequently uses malicious Office documents and macros to deliver their malware payloads, which aligns with the TTP described in the report.
+
+3. **Living-off-the-land (LOTL) techniques**: APT37 is known to use LOTL techniques, where they leverage legitimate system tools and utilities to carry out their malicious activities. In this case, the use of 'certutil.exe' to communicate with the C2 server is a classic example of LOTL.
+
+4. **Domain registration patterns**: The registration of the C2 server domain 'silkroad-dpr[.com' on November 20, 2020, is consistent with APT37's domain registration patterns.
+
+5. **Ratankba RAT**: Although the report does not explicitly mention that Ratankba RAT is a signature malware of APT37, the combination of TTPs and the modus operandi of the attack aligns with the group's known activities.
+
+Given these indicators, I am confident that the threat actor responsible for this incident is APT37, also known as Starcruft, a North Korean state-sponsored threat actor.

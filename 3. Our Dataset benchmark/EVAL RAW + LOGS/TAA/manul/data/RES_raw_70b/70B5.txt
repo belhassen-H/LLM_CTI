@@ -1,0 +1,10 @@
+Based on the provided report, I believe the threat actor responsible for the WhiteBear incident is the Turla group. Here's why:
+
+1. **Infrastructure overlap**: The report mentions that WhiteBear infrastructure has overlap with other Turla campaigns, such as those deploying Kopiluwak. This suggests a connection between the two.
+2. **Similar TTPs**: WhiteBear uses compromised websites and hijacked satellite connections for C2 infrastructure, which is a known Turla tactic.
+3. **Code signing certificate**: The use of a code signing certificate issued to "Solid Loop Ltd" is reminiscent of Turla's known tactics of using fictional corporations or assumed identities to obtain digital certificates.
+4. **C2 servers**: The report mentions that WhiteBear C2 servers are consistent with long-standing Turla infrastructure management practices, including the use of compromised servers and hijacked destination satellite IP hosts.
+5. **Targeting**: The target set of WhiteBear, including government foreign affairs, international organizations, and defense organizations, aligns with Turla's typical targeting profile.
+6. **Technical details**: The report highlights unique technical details, such as the use of RSA+bzip2 compression and 3DES encryption, which are similar to those seen in Sofacy and Duqu2 components, also attributed to Turla.
+
+While the report notes that WhiteBear infections are relatively rare and represent a departure from the broader Skipper Turla target set, the cumulative evidence points to Turla as the most likely threat actor responsible for the WhiteBear incident.

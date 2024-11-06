@@ -1,0 +1,9 @@
+Based on the analysis of the threat report, I believe the incident can be attributed to the APT31 threat actor group. Here's my reasoning:
+
+1. **APT31 is a suspected Chinese APT group**, which aligns with the report's description of the threat actor group.
+2. **Exploit of CVE-2017-11882 vulnerability**: APT31 has been known to exploit vulnerabilities in Microsoft Office, including CVE-2017-11882, in their attacks.
+3. **Use of custom-built backdoors and DGA for C2 communication**: APT31 is known for using custom-built backdoors and DGA algorithms to communicate with their C2 servers, which is consistent with the report's description.
+4. **Use of legitimate tools such as PlugX and Invoke-PSImage**: APT31 has been observed using PlugX, a Chinese-made remote access tool, in previous attacks. The use of Invoke-PSImage, a PowerShell script, is also consistent with APT31's TTPs.
+5. **Similarities to previous attacks between 2018 and 2020**: APT31 has been active during this time period, and their attacks often involve the use of spear-phishing emails, exploited vulnerabilities, and custom-built backdoors.
+
+While the report doesn't provide a direct mention of the threat actor group, the combination of these factors points to APT31 as the likely culprit behind this cyber incident.

@@ -1,0 +1,11 @@
+Based on the analysis of the report, I attribute the incident to the APT41 threat actor group. Here's my reasoning:
+
+1. **Spear phishing attack**: The attack starts with a spear phishing email, which is a common tactic used by APT41. They are known for conducting targeted attacks using socially engineered emails.
+2. **Malware characteristics**: The Flagpro malware's behavior, such as creating an EXE file in the startup directory, communicating with a C&C server, and downloading additional malware, is similar to other malware attributed to APT41.
+3. **Use of living-off-the-land (LOTL) techniques**: Flagpro's use of COM objects of Internet Explorer for C&C communications and its ability to execute OS commands and collect Windows authentication information are consistent with APT41's tactics, which often involve leveraging existing system tools and services to evade detection.
+4. **Obfuscation techniques**: The repeated insertion of codes to hide important functions in Flagpro v2.0 is a common obfuscation technique used by APT41 to make their malware harder to analyze.
+5. **Command and control (C2) protocol**: The use of Base64 encoding for C2 communications and the format of the received commands, including the "Exec" and "Yes" flags, are similar to previous APT41 malware.
+6. **Geopolitical context**: The targeting of Japanese companies and the use of Japanese language in the malware (e.g., "Windows セキュリティ" dialog) suggests a potential China-based threat actor, which is consistent with APT41's suspected origins.
+7. **Development of new malware**: The report mentions the use of new malware, such as "SelfMake Loader" and "Spider RAT", which suggests that the threat actor is actively developing new tools, a characteristic often associated with APT41.
+
+While the report does not provide direct evidence of APT41's involvement, the cumulative weight of these factors supports the attribution of this incident to APT41.

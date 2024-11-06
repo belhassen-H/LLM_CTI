@@ -1,0 +1,7 @@
+Based on the analysis of the report, I attribute the incident to the threat group Dragonfly (also known as Energetic Bear). My reasoning is based on the techniques, tactics, and procedures (TTPs) described in the report, which are consistent with those attributed to Dragonfly.
+
+The use of spear phishing, exploiting vulnerabilities in unpatched software (CVE-2017-0199), and implementing Living off the Land (LotL) tactics to evade detection are all characteristics of Dragonfly's TTPs. Additionally, the use of Windows Management Instrumentation (WMI) to establish persistence, the employment of open-source tools such as PsExec and Mimikatz, and the exfiltration of sensitive data are also indicative of Dragonfly's methods.
+
+Dragonfly is a known threat group that has targeted the energy and transportation sectors in the past. They are particularlyinterested in disrupting critical infrastructure and have a history of using similar tactics and techniques.
+
+Given the overlap between the attack chain described in the report and Dragonfly's known TTPs, as well as the sectoral focus and geographic scope, I believe that Dragonfly is the most likely threat actor responsible for this incident.

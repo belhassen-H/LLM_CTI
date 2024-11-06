@@ -1,0 +1,13 @@
+Based on the analysis of the threat report, I believe the incident can be attributed to the Lazarus Group, a known Advanced Persistent Threat (APT) actor associated with North Korea.
+
+Here's my reasoning:
+
+1. **Use of phishing email with a malicious Microsoft Office document**: Lazarus Group has been known to use phishing emails with malicious attachments to target victims. In this case, the use of a CVE-2017-0199 vulnerability in Equation Editor to deliver the payload is a tactic commonly associated with Lazarus Group.
+2. **Multi-stage malware campaign with droppers and backdoors**: Lazarus Group is known for its complex, multi-stage malware campaigns, often involving droppers and backdoors to establish persistence on victim machines.
+3. **Use of code obfuscation, anti-debugging, and encryption**: Lazarus Group is known for using advanced evasion techniques to avoid detection, including code obfuscation, anti-debugging, and encryption.
+4. **Use of legitimate services as C2 servers**: Lazarus Group has been known to use legitimate services, such as cloud providers, as C2 servers to make detection more difficult. In this case, the use of VMware Cloud as a C2 server is a tactic commonly associated with Lazarus Group.
+5. **Financial motivation and targeting of cryptocurrency exchanges**: Lazarus Group has been associated with numerous financially motivated cyber attacks, including targeting cryptocurrency exchanges and organizations involved in cryptocurrency trading.
+
+The mention of "AppleJeus" as the backdoor name is also a strong indicator, as AppleJeus is a known malware variant associated with Lazarus Group.
+
+Based on these similarities in TTPs and motivations, I believe the incident described in the report is likely attributed to the Lazarus Group.

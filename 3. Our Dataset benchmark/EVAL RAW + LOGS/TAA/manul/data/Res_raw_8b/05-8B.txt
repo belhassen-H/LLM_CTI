@@ -1,0 +1,10 @@
+Based on the analysis of the threat report, I believe that the incident attributed to WhiteBear is likely attributed to the Sofacy group. Here are the reasons that support this attribution:
+
+1. Similarities to previous Turla campaigns: WhiteBear has similarities with previous Turla campaigns, such as the use of compromised websites and hijacked satellite connections for command and control infrastructure. This suggests that WhiteBear may be a part of the same family of malware.
+2. Unique TTPs: WhiteBear employs unique techniques, tactics, and procedures (TTPs) that are not commonly seen in other malware families. For example, the use of a condensed spearphishing dropper and a complex malicious platform that is always preceded by a WhiteAtlas module deployment attempt suggests a high level of sophistication.
+3. Unusual encryption: The encryption used in WhiteBear is unique and employs a combination of RSA, 3DES, and BZIP2. This is not commonly seen in other malware families and suggests a high level of expertise in encryption techniques.
+4. Digital code-signing certificate: The use of a digital code-signing certificate issued to "Solid Loop Ltd" is suspicious, as it is likely a phony front organization or a defunct organization used by the attackers to attain deceptive code-signing digital certificates.
+5. Geolocation: The geolocation of the incidents matches known Turla activity, with targets in Europe, South Asia, Central Asia, East Asia, and South America.
+6. Turla-like command and control: The command and control infrastructure used by WhiteBear is consistent with long-standing Turla infrastructure management practices, with callbacks to a mix of compromised servers and hijacked destination satellite IP hosts.
+
+Overall, while there is no explicit mention of Sofacy in the report, the similarities to previous Turla campaigns, unique TTPs, unusual encryption, and digital code-signing certificate all strongly suggest that WhiteBear is attributed to the Sofacy group.

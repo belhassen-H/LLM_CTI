@@ -1,0 +1,12 @@
+Based on the techniques, tactics, and procedures (TTPs) described in the report, I believe the threat actor responsible for this campaign is KONNI (also known as Andariel or Velvet Chollima).
+
+Here's why:
+
+1. **Targeting focus**: The campaign targets North Korea-focused information services, human rights activists, and DPRK-defector support organizations, which aligns with KONNI's known interests and targeting profile.
+2. **Malware delivery**: The use of Microsoft Compiled HTML Help (CHM) files to deliver malware is a known tactic employed by KONNI.
+3. **RandomQuery malware**: The variant of RandomQuery malware described in the report, which focuses on file reconnaissance and information exfiltration, is consistent with KONNI's modus operandi.
+4. **Infrastructure setup**: The use of less common top-level domains (TLDs) and domain names mimicking standard .com TLDs to deceive targets and network defenders is a technique commonly associated with KONNI.
+5. **Phishing emails**: The phishing emails described in the report, including the use of specially crafted emails with Korean-language lures, are similar to those used by KONNI in previous campaigns.
+6. **Overlaps in code**: The report mentions overlaps in code with previous KONNI campaigns, which further supports the attribution to KONNI.
+
+While other North Korean APT groups, such as Lazarus or Reaper, may also exhibit similar TTPs, the specific combination of factors described in the report points towards KONNI as the most likely threat actor responsible for this campaign.

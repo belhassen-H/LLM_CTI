@@ -1,0 +1,12 @@
+Based on the techniques, tactics, and procedures (TTPs) described in the threat report, I believe the incident can be attributed to the APT29 threat actor group, also known as Cozy Bear.
+
+Here's my reasoning:
+
+1. **Exploitation of CVE-2017-11882 vulnerability**: APT29 has been known to exploit this vulnerability in previous campaigns.
+2. **Use of ScreenConnect**: APT29 has been observed using modified versions of ScreenConnect for reconnaissance and lateral movement in previous attacks.
+3. **Utilization of WMI**: APT29 frequently uses WMI to execute commands and gather system information.
+4. **DNS tunneling**: APT29 has been known to employ DNS tunneling to communicate with C2 servers, often using the DnsClient API.
+5. **Anti-forensic techniques**: APT29 often uses techniques like clearing event logs and disabling Windows Defender to evade detection.
+6. **Timeline**: The attack occurred between June and September 2022, which aligns with APT29's known activity patterns.
+
+While other threat actors may exhibit some of these TTPs, the combination of these techniques and the specific tools used (e.g., ScreenConnect) strongly suggest that APT29 is the responsible threat actor group.

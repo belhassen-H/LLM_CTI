@@ -1,0 +1,13 @@
+Based on the analysis of the report, I attribute the incident to Stately Taurus, also known as Mustang Panda, BRONZE PRESIDENT, TA416, RedDelta, and Earth Preta.
+
+The attribution is based on the following reasons:
+
+1. **Unique Tooling**: The use of an undocumented variant of the ToneShell backdoor, which is a rare tool that has not been publicly documented in association with any other known threat actor. Additionally, the deployment of ShadowPad, a modular backdoor that has been used exclusively by Chinese-sponsored threat actors since at least 2015, further supports the attribution to Stately Taurus.
+
+2. **Victimology**: The targeting of the government sector in a country in Southeast Asia, which is consistent with Stately Taurus' previous reported activities in the region.
+
+3. **TTPs**: The use of specific techniques, tactics, and procedures (TTPs) such as credential stealing, abusing existing antivirus software, and maintaining access through web shells and backdoors, which are consistent with Stately Taurus' known TTPs.
+
+4. **Intelligence-Driven Operation**: The highly targeted and intelligence-driven operation, focusing on specific individuals and gathering sensitive documents and intelligence, which is consistent with Stately Taurus' modus operandi.
+
+Overall, the combination of unique tools, victimology, and TTPs observed in the report strongly suggest that the threat actor behind CL-STA-0044 is likely Stately Taurus, a Chinese-sponsored APT group.

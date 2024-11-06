@@ -1,0 +1,12 @@
+Based on the techniques, tactics, and procedures (TTPs) described in the report, I believe the threat actor responsible for this cyber incident is the Gaza Cybergang, also known as the Molerats.
+
+Here's why:
+
+1. The report mentions that the attackers are an Arabic-language, politically-motivated cybercriminal group, operating since 2012, primarily targeting the MENA region. This matches the profile of the Gaza Cybergang, a known group with a similar motivation and target scope.
+2. The report highlights the use of Remote Access Trojans (RATs) like Downeks, Qasar, and Cobaltstrike, which are commonly associated with the Gaza Cybergang.
+3. The technique of using Microsoft Office documents with embedded macros to deliver malware, as described in the report, is a known TTP of the Gaza Cybergang.
+4. The report mentions the use of the CVE 2017-0199 vulnerability, which was previously associated with the Gaza Cybergang.
+5. The social engineering lures and decoys described in the report, such as using political and humanitarian incidents to trick victims, are consistent with the Gaza Cybergang's tactics.
+6. The report references a previous publication by Kaspersky Lab, which provides further evidence linking the Gaza Cybergang to this incident.
+
+While the report replaces the threat actor's name with [PLACEHOLDER], the accumulated evidence points strongly to the Gaza Cybergang as the responsible party.

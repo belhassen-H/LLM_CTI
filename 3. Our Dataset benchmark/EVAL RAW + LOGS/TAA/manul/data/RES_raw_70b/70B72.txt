@@ -1,0 +1,11 @@
+Based on the analysis of the threat report, I believe the incident is attributed to the threat actor group "Lazarus" (also known as "Hidden Cobra"). Here's my reasoning:
+
+1. **Mobile-based campaign targeting cryptocurrency users**: Lazarus is known for its interest in cryptocurrency and has been involved in several high-profile attacks on cryptocurrency exchanges and users. Their mobile-based campaigns, such as the "Operation AppleJeus" campaign, have targeted cryptocurrency investors.
+2. **Use of phishing SMS or email to distribute malware**: Lazarus has employed phishing tactics in the past to deliver malware, including SMS and email phishing campaigns.
+3. **Abuse of Android Accessibility feature**: The use of the Android Accessibility feature to gain elevated privileges is a technique commonly associated with Lazarus. They have used this method in previous campaigns to gain control over mobile devices.
+4. **Code obfuscation, anti-debugging, and anti-VM techniques**: Lazarus is known for using advanced techniques to evade detection and analysis. These tactics are consistent with their modus operandi.
+5. **Use of Telegram API for C2 communication**: While not exclusive to Lazarus, the use of Telegram API for C2 communication is an interesting aspect, as Lazarus has been known to use unconventional C2 channels in the past.
+6. **Techniques, tactics, and procedures (TTPs)**: The report mentions Masquerading (T1036), Input Capture (T1056), and Exfiltration Over C2 Channel (T1041), which are all TTPs commonly associated with Lazarus.
+7. **Fingerprints dating back to 2019**: Lazarus has been active since at least 2014, and their campaigns often have a long tail of activity. The fact that fingerprints date back to 2019 suggests a possible connection to earlier campaigns.
+
+While attribution is never 100% certain, based on the combination of these factors, I believe the incident is attributed to the Lazarus threat actor group.

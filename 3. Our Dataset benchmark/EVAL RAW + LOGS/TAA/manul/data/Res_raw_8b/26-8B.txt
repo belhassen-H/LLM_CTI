@@ -1,0 +1,14 @@
+Based on the report, I believe that the threat actor responsible for the malware is the [PLACEHOLDER] group. The reasons for this attribution are:
+
+1. Similarities in code: The malware, named Troll Stealer, contains code similarities with the AppleSeed and AlphaSeed malware, which are attributed to the [PLACEHOLDER] group.
+2. Use of Go language: The malware is written in Go, which is a language recently used by the [PLACEHOLDER] group.
+3. Mutex usage: The malware uses mutexes, which are also used by the [PLACEHOLDER] group in their previous malware.
+4. Hardcoded commands: The malware executes hardcoded commands to collect system information, which are identical to those used by AppleSeed malware.
+5. Encryption and compression: The malware uses the same encryption and compression algorithms as those used by AlphaSeed.
+6. C2 server communication: The malware communicates with the C2 server using the same protocol and structure as AlphaSeed.
+
+Additionally, while there are some differences in the TTPs, such as the addition of new commands and the use of SOCKS5 proxy functionality in GoBear, it is possible that the [PLACEHOLDER] group may have shared the source code with another group or individual, which could have led to the creation of Troll Stealer and GoBear.
+
+It is also noteworthy that the [PLACEHOLDER] group has been known to reuse code and techniques across multiple campaigns, so the similarities between Troll Stealer and AppleSeed/AlphaSeed are not surprising.
+
+Overall, while there is no definitive proof that the [PLACEHOLDER] group is behind Troll Stealer and GoBear, the cumulative evidence points strongly towards attribution to this group.

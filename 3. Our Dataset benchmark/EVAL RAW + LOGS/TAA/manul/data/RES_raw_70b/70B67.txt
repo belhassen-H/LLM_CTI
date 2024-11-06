@@ -1,0 +1,9 @@
+Based on the analysis of the threat report, I believe the responsible threat actor is APT41. Here's my reasoning:
+
+1. **Geopolitical context**: The report mentions that the campaign targeted Myanmar, which is a country of strategic importance to China. APT41 is a Chinese advanced persistent threat (APT) group known to target countries and organizations in the Asia-Pacific region, including those with interests in Myanmar.
+2. **TTPs overlap**: The attribution to APT41 is strengthened by the overlap of TTPs with previous known campaigns. APT41 is notorious for using phishing emails as an initial vector, exploiting Microsoft Office vulnerabilities, and deploying PlugX malware. These TTPs match those described in the report.
+3. **Exploitation of CVE-2021-34473**: APT41 has been known to exploit recently disclosed vulnerabilities, including those in Microsoft Office. The exploitation of CVE-2021-34473, a vulnerability in Microsoft Office, is consistent with APT41's modus operandi.
+4. **Use of PlugX malware**: PlugX is a Remote Access Tool (RAT) that has been extensively used by APT41 in previous campaigns. The use of PlugX in this campaign increases the likelihood of APT41 involvement.
+5. **LOTL and FTP techniques**: APT41 is known to employ stealthy tactics, such as Living Off The Land (LOTL) and using legitimate protocols like FTP for C2 communication, to evade detection. These techniques are consistent with the report's description of the campaign.
+
+While there may be other Chinese APT groups that share similar TTPs, the cumulative evidence points towards APT41 as the most likely responsible threat actor.

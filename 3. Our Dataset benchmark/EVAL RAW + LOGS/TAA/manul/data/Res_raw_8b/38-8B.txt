@@ -1,0 +1,11 @@
+Based on the report, I believe that the threat actor responsible for the cyber incident is the same group known as [PLACEHOLDER] or APT-C23, previously exposed in 2015. The report highlights several similarities between this new campaign and previous campaigns attributed to this group, including:
+
+1. Use of Delphi-based Micropsia implants: The report mentions that the implant used in this campaign is a Delphi-based version of Micropsia, which is consistent with earlier reports about this group.
+2. Politically themed lures: The report notes that the decoy documents used in this campaign are political in nature, which is a common trait of APT-C23's campaigns.
+3. Targeting of Palestinian individuals and organizations: The report mentions that the campaign targets Palestinian individuals and organizations, which is consistent with APT-C23's known M.O.
+4. Use of email as initial attack vector: The report states that the group likely uses email as an initial attack vector, which is consistent with earlier reports about APT-C23's tactics.
+5. Lack of technological advancement: The report notes that the group is not technologically advanced, but still manages to maintain a presence and conduct campaigns, which is consistent with earlier reports about APT-C23.
+
+The report's conclusion, which states that the group continues to use the same TTPs over four years, despite public exposure, and that they are not deterred by this exposure, further supports the attribution to APT-C23. Additionally, the report's language and tone, which emphasizes the group's political motivation and its ability to evade detection, are consistent with earlier reports about APT-C23.
+
+Overall, based on the evidence presented in the report, I conclude that the threat actor responsible for this cyber incident is likely APT-C23, also known as [PLACEHOLDER].

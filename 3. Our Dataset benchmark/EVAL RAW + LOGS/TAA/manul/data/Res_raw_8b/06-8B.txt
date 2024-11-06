@@ -1,0 +1,8 @@
+Based on the techniques, tactics, and procedures (TTPs) described in the report, I attribute the incident to [PLACEHOLDER]. The use of Cobalt Strike, a versatile tool for both legitimate and malicious activities, is a strong indication of involvement by a threat actor. Specifically:
+
+1. The use of Cobalt Strike for establishing covert communication, conducting post-exploitation tasks, and executing social engineering attacks suggests an advanced and sophisticated threat actor.
+2. The presence of Base64-encoded files, simple replace obfuscation, AES encryption, and decompression using Gzip points to the use of encryption and obfuscation techniques commonly employed by [PLACEHOLDER].
+3. The use of memory manipulation, embedding of resources, and extracting hidden files is consistent with the TTPs of [PLACEHOLDER].
+4. The encryption of network traffic and the use of inetsim and Fiddler to intercept and analyze traffic without risking infection is also a tactic commonly used by [PLACEHOLDER].
+
+Furthermore, the presence of multiple executables (out1.exe, out2.exe, and 4000.exe) and the use of a domain (pickilish[.]com) adds to the suspicion that [PLACEHOLDER] is involved.

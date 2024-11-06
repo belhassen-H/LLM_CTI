@@ -1,0 +1,11 @@
+Based on the techniques, tactics, procedures (TTPs), and characteristics described in the report, I believe that the threat actor responsible is the APT28 group (also known as FancyBear or Sofacy).
+
+My reasoning is as follows:
+
+1. Use of Living Off the Land (LOTL) technique: APT28 has been known to use this technique in previous attacks, exploiting legitimate system utilities to download and execute malicious code.
+2. Use of fileless malware: APT28 has been observed using fileless malware in previous attacks, which involves storing malware code in memory rather than on disk.
+3. Exploitation of CVE-2017-0199: APT28 has been known to exploit this vulnerability in previous attacks, as part of a spear-phishing campaign.
+4. Use of anti-forensic techniques: APT28 has been observed using anti-forensic techniques, such as deleting system logs and hiding malicious files in legitimate system directories, in previous attacks.
+5. Similarities with previous attacks: The report mentions that the attack is attributed to the [PLACEHOLDER] group based on similarities with previous attacks, which suggests that the tactics, techniques, and procedures (TTPs) used in this attack are consistent with those used by APT28 in previous attacks.
+
+APT28 is a Russian-based threat actor group known for its extensive use of LOFT and fileless malware, as well as its ability to evade detection through the use of anti-forensic techniques. The group has been linked to a number of high-profile attacks, including those targeting the Democratic National Committee and the French presidential election campaign.

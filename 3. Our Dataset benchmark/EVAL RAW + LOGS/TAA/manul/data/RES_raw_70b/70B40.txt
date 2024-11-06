@@ -1,0 +1,9 @@
+Based on the TTPs described in the report, I believe the incident can be attributed to the MuddyWater threat actor group. Here's my reasoning:
+
+1. The use of a phishing email with a malicious Excel document exploiting a known vulnerability (CVE-2021-40444) to deliver a RAT payload is a common tactic used by MuddyWater.
+2. The use of the Nemerode RAT is also consistent with MuddyWater's known toolset. Nemerode has been previously associated with MuddyWater campaigns.
+3. The use of code obfuscation, anti-forensic tools, and time-based execution to evade detection are all techniques commonly employed by MuddyWater to evade detection and stay under the radar.
+4. The rotation of C2 servers every 10-15 minutes and the use of DNS tunneling to communicate with C2 servers are also tactics that have been observed in previous MuddyWater campaigns.
+5. The use of multiple techniques, including phishing, exploit public-facing application, command and scripting interpreter, exfiltration over command and control channel, and network interface discovery, is also consistent with MuddyWater's known modus operandi.
+
+Taking all these factors into account, I believe that the incident can be attributed to the MuddyWater threat actor group.

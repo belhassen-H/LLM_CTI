@@ -1,0 +1,19 @@
+Based on the techniques, tactics, and procedures (TTPs) described in the report, I believe the incident can be attributed to the threat actor known as APT41.
+
+Here's my reasoning:
+
+1. **Exploit of CVE-2018-0802**: APT41 is known to have exploited this vulnerability in previous campaigns, demonstrating their ability to rapidly incorporate newly discovered exploits into their toolset.
+
+2. **Use of malicious DLLs and custom protocols**: APT41 has been observed using similar techniques in the past, including the injection of malicious DLLs into memory and the use of custom protocols for C2 communication.
+
+3. **Custom encryption algorithm and DGA**: APT41 is known to use custom encryption algorithms and DGAs to evade detection and keep their C2 communications private.
+
+4. **Use of non-standard certificate issuers and serial numbers**: This technique is also consistent with APT41's tactics, as they often attempt to evade detection by using unconventional certificate issuers and serial numbers.
+
+5. **'Living off the land' techniques**: APT41 has been observed using legitimate system administration tools and techniques to move laterally within networks, staying under the radar of detection and monitoring tools.
+
+6. **Encrypted commands**: This technique is also consistent with APT41's modus operandi, as they often use encrypted commands to evade detection.
+
+7. **Attribution to a Chinese-based threat actor**: APT41 is a Chinese-based threat actor, which aligns with the attribution mentioned in the report.
+
+While these factors don't provide absolute certainty, the cumulative evidence strongly suggests that APT41 is the responsible threat actor.

@@ -1,0 +1,7 @@
+Based on the TTPs described in the report, I believe the threat actor responsible for the incident is the APT28 group, also known as Fancy Bear or Sofacy.
+
+The report mentions a combination of techniques used by the attackers, including phishing emails, exploitation of Microsoft Exchange vulnerabilities, and the opportunity technique. These techniques are consistent with those used by APT28 in previous attacks. Additionally, the use of the "CrashOverride" malware to establish persistence on infected systems is similar to the malware used by APT28 in previous campaigns.
+
+The report also mentions the use of DNA tunneling for C2 communication, which is a technique commonly used by APT28. Furthermore, the use of code obfuscation, anti-debugging techniques, and domain generation algorithms to evade detection is also consistent with APT28's tactics.
+
+APT28 is a known APT group that has been active since at least 2007 and has been involved in numerous attacks targeting governments, political organizations, and military institutions. The group is known for its sophisticated tactics and global reach.

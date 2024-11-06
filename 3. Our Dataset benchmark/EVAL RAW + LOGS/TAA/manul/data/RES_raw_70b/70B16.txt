@@ -1,0 +1,12 @@
+Based on the analysis of the report, I believe the threat actor responsible for the incident is APT35 (also known as Cobalt Mirage, TunnelVision, and Charming Kitten).
+
+My reasoning is as follows:
+
+1. The report mentions the use of FoxShell, which is a known webshell used by APT35.
+2. The threat actor's TTPs (Tactics, Techniques, and Procedures) described in the report, such as the use of open-source tools, reconnaissance, and RATs (Remote Access Trojans), are consistent with APT35's modus operandi.
+3. The report mentions the use ofDarkBit (also known as DEV-1084), which is a subgroup of APT35, and has been linked to the Iranian Ministry of Intelligence and Security (MOIS).
+4. The report highlights the use of similar campaign names, such as "Lord Nemesis" and "IronSwords", which are similar to previous campaigns attributed to APT35.
+5. The tactics described in the report, such as the use of fake hacktivist operations, targeted phishing emails, and exploitation of vulnerabilities, are consistent with APT35's tactics.
+6. The mention of Iran and the reference to the "Swords of Iron War" against Hamas terrorists suggests that the threat actor is likely an Iranian-backed group, which is consistent with APT35's affiliation.
+
+Based on these points, I believe that APT35 (Cobalt Mirage, TunnelVision, and Charming Kitten) is the most likely threat actor responsible for the incident described in the report.

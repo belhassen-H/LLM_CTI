@@ -1,0 +1,10 @@
+Based on the techniques, tactics, and procedures (TTPs) described in the report, I attribute the cyber incident to the Mustang Panda APT group with high confidence. The indicators that support this attribution include:
+
+1. Usage of MQTT protocol for C&C communication, which is a uncommon protocol for malware, but was also used by Chrysaor/Pegasus malware family.
+2. Utilization of the Qt framework, which is a big part of the malware, statically linked in the malware, and was also used by Lazarus's MagicRAT.
+3. Customized Korplug loaders and archives hosted on a web server with no associated domain name, which is consistent with Mustang Panda's TTPs.
+4. Usage of the same directory (/pub/god) and server as in a previous campaign described by Avast, indicating reuse of infrastructure.
+5. Network fingerprint matching previously known Mustang Panda servers.
+6. Spear phishing campaign using decoy filenames related to Diplomacy and passports, which is consistent with Mustang Panda's targeting of political and governmental entities.
+
+These indicators, along with the fact that MQsTTang is a barebones backdoor without any obfuscation techniques, suggests that Mustang Panda is exploring new technology stacks and TTPs, which is consistent with their fast development and deployment cycle. Overall, the combination of technical indicators and TTPs strongly suggests that Mustang Panda APT group is responsible for this incident.

@@ -1,0 +1,10 @@
+Based on the analysis of the threat report, I attribute the incident to the APT3 (Gothic Panda) threat actor group. Here's my reasoning:
+
+1. **Consistency with known TTPs**: APT3 is known for conducting espionage attacks, mainly targeting organizations in the U.S. The report highlights that the Buckeye attack group, which is an alias for APT3, was using the [PLACEHOLDER] tools for espionage purposes, which aligns with their known motives.
+2. **Use of zero-day vulnerabilities**: APT3 has a history of exploiting zero-day vulnerabilities, which is consistent with the report's mention of the group using a previously unknown Windows zero-day vulnerability (CVE-2019-0703).
+3. **Targeting specific industries**: The report mentions that the targets included organizations in the telecoms, media, and manufacturing sectors, which aligns with APT3's known targeting of industries with strategic value.
+4. **Use of custom malware and tools**: APT3 is known for developing and using custom malware and tools, such as Backdoor.Pirpi and Trojan.Bemstour, which are mentioned in the report.
+5. **Timeline and activity patterns**: The report's timeline of attacks, including the cessation of Buckeye's operations in mid-2017, matches the known activity patterns of APT3.
+6. **Link to Filensfer malware**: The report mentions the connection between Filensfer and Buckeye, which is consistent with APT3's known use of Filensfer malware in targeted attacks.
+
+While the report does not provide direct evidence of APT3's involvement, the cumulative weight of these indicators points to APT3 as the likely threat actor responsible for the incident.

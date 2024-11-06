@@ -1,0 +1,7 @@
+Based on the TTPs described in the report, I attribute the attack to the Russian hacking group, [PLACEHOLDER]. The techniques used, such as exploiting VPN accounts lacking MFA, using WinRAR to wipe data, and employing BAT and Bash scripts to delete files, are consistent with the group's previously reported behaviors.
+
+The use of legitimate programs such as 'dd' and WinRAR to avoid detection by security software is also a tactic commonly employed by [PLACEHOLDER]. Additionally, the similarity between this attack and a previous destructive attack on the Ukrainian state news agency Ukrinform, which was also attributed to [PLACEHOLDER], provides strong evidence of the group's involvement.
+
+The report also mentions that CERT-UA stated that the method used to carry out the attack, the IP addresses of the attackers, and the fact that a modified version of RoarBAT was used all provide evidence of the similarity between the two incidents. This suggests that the attackers may be using a consistent playbook and tactics, which is another characteristic of [PLACEHOLDER]'s modus operandi.
+
+Overall, considering the TTPs, tactics, and previous incidents attributed to [PLACEHOLDER], I believe that [PLACEHOLDER] is responsible for this attack.

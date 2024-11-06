@@ -1,0 +1,13 @@
+Based on the analysis of the threat report, I believe the responsible threat actor is APT28, also known as Fancy Bear or Sofacy.
+
+My reasoning is as follows:
+
+1. The report mentions that the threat actor is allegedly linked to the Russian Federation's FSB (Federal Security Service), specifically the Center 16 unit, which is consistent with APT28's known affiliations.
+2. The report states that the threat actor has been active since 2004, which aligns with APT28's known activity timeline.
+3. The report mentions that the threat actor targets organizations from various sectors, including government, research centers, embassies, energy, telecommunications, and pharmaceuticals, which is consistent with APT28's known targeting preferences.
+4. The report highlights the use of the Kazuar malware, which is a known tool used by APT28.
+5. The report describes the use of the Sideload DLL technique, which is a common tactic used by APT28 to deliver malware.
+6. The report's analysis of the Pelmeni Wrapper DLL reveals similarities with APT28's known TTPs, such as the use of encryption, anti-forensic techniques, and targeted attack vectors.
+7. The report mentions that the attack is highly targeted, which is consistent with APT28's known modus operandi of conducting sophisticated, targeted attacks.
+
+While the report does not provide direct evidence of APT28's involvement, the cumulative weight of these indicators and the consistency with APT28's known TTPs and targeting preferences lead me to attribute the incident to APT28.

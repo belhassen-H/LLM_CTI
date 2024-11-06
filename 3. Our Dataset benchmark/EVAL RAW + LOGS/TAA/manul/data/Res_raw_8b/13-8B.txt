@@ -1,0 +1,8 @@
+Based on the analysis, I attribute the incident to [PLACEHOLDER], a China-based advanced persistent threat (APT) actor. My reasoning is as follows:
+
+1. Abuse of DLL sideloading: [PLACEHOLDER] has been known to use DLL sideloading in their campaigns, and this technique is closely associated with Chinese APT groups.
+2. Targeted regions: The samples of DodgeBox were submitted from Thailand and Taiwan, which coincides with previous instances of [PLACEHOLDER] targeting users in the Southeast Asian region.
+3. Similarities between DodgeBox and StealthVector: The code analysis reveals striking similarities between DodgeBox and StealthVector, particularly in the techniques used for integrity checks, decryption, and environment keying. This suggests a strong association between the two malware samples, which is consistent with [PLACEHOLDER]'s tactics.
+4. CFG disabling: The disabling of CFG using the same patch in the LdrpHandleInvalidUserCallTarget function is another example of a technique commonly used by Chinese APT groups.
+
+Overall, while the attribution is not definitive, the combination of these indicators suggests a strong likelihood that [PLACEHOLDER] is responsible for this incident.

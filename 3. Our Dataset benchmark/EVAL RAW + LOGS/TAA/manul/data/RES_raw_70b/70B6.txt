@@ -1,0 +1,18 @@
+A thrilling threat report!
+
+After analyzing the report, I believe the incident can be attributed to the threat actor group **Wizard Spider**. Here's why:
+
+**TTPs used:**
+
+1. **Cobalt Strike**: The report mentions the use of Cobalt Strike, a versatile tool for Red Team operations and penetration testing, which is also used by threat actors for malicious activities. Wizard Spider is known to use Cobalt Strike in their operations.
+2. **Obfuscation and encryption**: The use of Base64 encoding, simple replace obfuscation, AES encryption, and Gzip compression to conceal malicious code and data is consistent with Wizard Spider's modus operandi.
+3. **.NET malware**: The extracted files being written in .NET and the use of DNSPY for debugging are also indicative of Wizard Spider's tactics.
+4. **Memory manipulation and embedded files**: The observation of additional memory manipulation and the discovery of embedded files inside the memory is a technique commonly used by Wizard Spider.
+5. **Encrypted network traffic and C2 communication**: The use of encrypted network traffic, which was successfully intercepted and analyzed using inetsim and Fiddler, is another hallmark of Wizard Spider's operations.
+
+**Additional indicators:**
+
+* The use of a .bat file as the initial vector is consistent with Wizard Spider's tactics.
+* The pickle[i]sh[.]com domain, which is part of the IOCs, is a known domain associated with Wizard Spider.
+
+While the report doesn't mention specific campaign names or malware names, the combination of these TTPs and indicators points to Wizard Spider as the likely threat actor responsible for this incident.

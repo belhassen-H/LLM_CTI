@@ -1,0 +1,15 @@
+Based on the provided threat report, I believe the threat actor responsible for the incident is Lazarus Group, a North-Korean linked APT threat actor.
+
+My reasoning is as follows:
+
+1. **Tactic of using attractive job offers as lures**: The report mentions that the threat actor has been using lures for attractive job offers in several campaigns since at least 2020, including "Operation Dream Job" which targeted aerospace and defense contractors. This tactic is consistent with Lazarus Group's known modus operandi.
+
+2. **Use of macOS malware**: Lazarus Group has been known to target macOS users, and the use of Mach-O binaries and LaunchAgents in this campaign is consistent with their previous macOS-focused campaigns.
+
+3. **Similarity in TTPs with previous campaigns**: The report mentions that the campaign uses a similar tactic to the one used in the Coinbase variant, which was attributed to Lazarus Group. The use of a decoy PDF document, a persistence agent, and a downloader from a C2 server are all consistent with Lazarus Group's known TTPs.
+
+4. **Lack of effort to encrypt or obfuscate binaries**: The report notes that the binaries are not encrypted or obfuscated, which is consistent with Lazarus Group's previous campaigns where they have shown little concern for detection by their targets.
+
+5. **Use of ad hoc signatures and universal Mach-O binaries**: The use of ad hoc signatures and universal Mach-O binaries that can run on both Intel and M1 Apple silicon machines is also consistent with Lazarus Group's known TTPs.
+
+Overall, the combination of tactics, techniques, and procedures described in the report strongly suggest that the threat actor responsible for this incident is Lazarus Group.

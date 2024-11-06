@@ -1,0 +1,13 @@
+Based on the analysis of the threat report, I attribute the incident to Mustang Panda APT group. Here's my reasoning:
+
+1. **Infrastructure overlap**: The report mentions that one of the servers used in the campaign was running a publicly accessible anonymous FTP server with directories (/pub/god and /pub/gd) and files that were used in previous Mustang Panda campaigns, as described by Avast in a December 2022 blog post. This suggests a strong connection to Mustang Panda's infrastructure.
+
+2. **GitHub repository connection**: The report notes that archives containing samples of MQsTTang were found in two GitHub repositories belonging to the user YanNaingOo0072022, which was also used in a previous Mustang Panda campaign. This indicates a shared development process or actor.
+
+3. **Network fingerprint**: The infrastructure used in this campaign matches the network fingerprint of previously known Mustang Panda servers, further solidifying the connection to the group.
+
+4. **TTPs**: The tactics, techniques, and procedures (TTPs) described in the report, such as the use of customized backdoors, single-stage payloads, lack of obfuscation techniques, and the targeting of governmental institutions, are consistent with Mustang Panda's known modus operandi.
+
+5. **Victimology**: The report mentions that the decoy filenames used are in line with the group's other campaigns that target European political entities, which is a known area of interest for Mustang Panda.
+
+Considering these points, I believe that the incident is attributed to Mustang Panda APT group with high confidence.

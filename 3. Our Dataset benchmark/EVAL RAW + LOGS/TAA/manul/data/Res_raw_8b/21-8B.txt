@@ -1,0 +1,9 @@
+Based on the report, I believe that the threat actor behind CL-STA-0044 is Stately Taurus, also known as Mustang Panda, BRONZE PRESIDENT, TA416, RedDelta, and Earth Preta. Here's my reasoning:
+
+1. **Unique tools**: The report highlights the use of an undocumented variant of the ToneShell backdoor, which is a tool unique to Stately Taurus. This suggests that the group has developed a custom-made tool to maintain persistence and control over compromised systems.
+2. **ShadowPad**: The report mentions the deployment of ShadowPad, a modular malware that has been used exclusively by Chinese-sponsored threat actors since at least 2015. ShadowPad's behavior and filenames observed during the campaign overlap with behavior described by researchers from Elastic Security Labs, which is consistent with the TTPs of Chinese state-sponsored threat actors.
+3. **Victimology**: The report indicates that the activity associated with CL-STA-0044 targets the government sector in a country in Southeast Asia, which is a region where Stately Taurus has been previously reported to target.
+4. **TTPs**: The report describes the threat actor's techniques, tactics, and procedures (TTPs), including the use of reconnaissance, credential stealing, abuse of existing antivirus software, web shells, and exfiltration methods. These TTPs are consistent with the TTPs of Stately Taurus observed in previous campaigns.
+5. **Code overlap**: The report notes the presence of code overlap between the undocumented variant of ToneShell and the previously reported shellcode variant. This suggests that the group has reused or modified their own code, which is a common practice among state-sponsored cyberactors.
+
+Given these factors, I believe that the threat actor behind CL-STA-0044 is likely Stately Taurus, with moderate-high confidence.

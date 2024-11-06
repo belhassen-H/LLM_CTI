@@ -1,0 +1,8 @@
+Based on the threat report, I believe the incident can be attributed to the threat actor group "Wizard Spider". Here's my reasoning:
+
+1. The use of Typosquatting as a technique to compromise a software update mechanism is a known TTP of Wizard Spider. This group has been observed using similar tactics in the past, including registering similar domain names to trick victims into connecting to their fake servers.
+2. The involvement of the TrickBot banking trojan is another strong indicator of Wizard Spider's involvement. Wizard Spider is known to be the primary operator of the TrickBot malware, and has used it in numerous campaigns for lateral movement and data exfiltration.
+3. The campaign timeline, from January 2020 to April 2020, also aligns with Wizard Spider's known activity patterns. During this period, Wizard Spider was active and conducting various campaigns, including those involving supply chain attacks and TrickBot malware.
+4. Wizard Spider is also known for its sophisticated and stealthy tactics, which aligns with the reporting of the incident involving the compromise of a software update mechanism and the dropping of malware payloads.
+
+Based on these factors, I believe that the threat actor group responsible for the incident is Wizard Spider.

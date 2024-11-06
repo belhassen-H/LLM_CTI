@@ -1,0 +1,8 @@
+Based on the TTPs described in the report, I attribute the incident to the [PLACEHOLDER] group. Here's my reasoning:
+
+1. The use of MSBuild to evade detection is a common technique associated with the [PLACEHOLDER] group. They have been known to use legitimate tools and signing certificates to disguise their malicious activity.
+2. The delivery vector via phishing email and malicious Microsoft Office document is a proven tactic used by the [PLACEHOLDER] group in the past.
+3. The use of a Tiny Backdoor payload is consistent with the group's preferred method of maintaining persistence on compromised systems.
+4. The remote execution of VBScript and the use of servers located in multiple countries are indicative of the group's ability to maintain a global network of infected systems.
+
+However, it's worth noting that this attribution is based on my analysis of the provided information and might not be definitive.

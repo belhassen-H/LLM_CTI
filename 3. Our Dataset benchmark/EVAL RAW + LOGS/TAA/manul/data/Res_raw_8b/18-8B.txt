@@ -1,0 +1,15 @@
+Based on the techniques, tactics, and procedures (TTPs) described in the report, I attribute the cyber incident to the Iranian threat actor group known as APT34, also referred to as OilRig, Static Kitten, and Charming Kitten.
+
+The report describes the group's tactics, including:
+
+1. Spear-phishing emails with targeted attachments to gain initial access
+2. Exploiting publicly known vulnerabilities, such as the Microsoft Netlogon elevation of privilege vulnerability (CVE-2020-1472) and the Microsoft Exchange memory corruption vulnerability (CVE-2020-0688)
+3. Using multiple malware sets, including PowGoop, Small Sieve, Canopy/Starwhale, Mori, and POWERSTATS, to maintain persistence, gather sensitive information, and exfiltrate data
+4. Disguising malicious executables as legitimate files and using variations of Microsoft and Outlook in filenames to avoid detection
+5. Leveraging publicly available tools, such as Telegram Bot, to maintain persistence and communicate with command and control servers
+6. Employing custom string and traffic obfuscation schemes to avoid detection
+7. Using domain name system (DNS) tunneling to communicate with command and control infrastructure
+
+The report also mentions the group's association with the Iranian Ministry of Intelligence and Security and its history of targeting government agencies, military institutions, telecommunications companies, universities, and other organizations in the Middle East.
+
+Based on these facts, I conclude that the incident is likely attributed to APT34, a known Iranian threat actor group.

@@ -1,0 +1,11 @@
+Based on the techniques, tactics, and procedures (TTPs) described in the report, I believe the threat actor responsible for the incident is Conti. Here's my reasoning:
+
+1. **TTP overlap**: Conti is known to use a combination of techniques, including vulnerability exploitation, RDP brute-forcing, and phishing to gain initial access, which aligns with the report.
+2. **Cobalt Strike and PsExec usage**: Conti has been observed using Cobalt Strike for command and control and PsExec for lateral movement, consistent with the report.
+3. **Mimikatz usage**: Conti is known to use Mimikatz to harvest credentials, which is mentioned in the report.
+4. **Ransomware delivery via phishing email**: Conti has been known to deliver ransomware payloads via phishing emails with malicious attachments, such as Excel documents with macros, which matches the report.
+5. **AES-256 encryption and Bitcoin payment demands**: Conti ransomware typically uses AES-256 encryption and demands payment in Bitcoin, consistent with the report.
+6. **MITRE ATT&CK techniques**: The report mentions several MITRE ATT&CK techniques, including T1190, T1472, T1489, T1059, T1210, T1558, T1562, and T1572, which are all associated with Conti's TTPs.
+7. **Ransomware executable and phishing email subject lines**: While the 'lockfile.exe' executable and phishing email subject lines 'Payment Advice' and 'Invoice for recent order' are not unique to Conti, they do not contradict Conti's known TTPs.
+
+Considering these overlaps, I believe Conti is the most likely threat actor responsible for the incident.

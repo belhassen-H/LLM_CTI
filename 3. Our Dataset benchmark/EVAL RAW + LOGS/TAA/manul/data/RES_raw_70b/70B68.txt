@@ -1,0 +1,12 @@
+Based on the techniques, tactics, and procedures (TTPs) described in the threat report, I attribute the incident to the MuddyWater threat actor group. Here's my reasoning:
+
+1. **Zardoor backdoor**: MuddyWater is known to use the Zardoor backdoor in their campaigns. In fact, it's one of their commonly used backdoors.
+2. **Exploitation of CVE-2017-11882**: MuddyWater has been observed exploiting this specific vulnerability in the past to deliver malware.
+3. **Use of phishing emails and Office documents**: MuddyWater frequently uses phishing emails and malicious Office documents to deliver malware, which is consistent with the initial infection vector described in the report.
+4. **Custom protocol and hardcoded key for C2 communication**: MuddyWater is known to use custom protocols and hardcoded keys for command and control (C2) communication, which matches the TTP described in the report.
+5. **Anti-forensic techniques**: MuddyWater has been observed using anti-forensic techniques, such as deleting logs and disabling security software, to evade detection and conceal their activities.
+6. **Use of LOTL and fileless malware techniques**: MuddyWater has been known to use these techniques to evade detection by security software and leave minimal footprints on victims' systems.
+7. **Geographic targeting**: MuddyWater's campaigns often focus on the Middle East, which aligns with the geographic distribution of victims mentioned in the report.
+8. **Timeline**: The observed timeframe of December 2020 to February 2021 is consistent with MuddyWater's known activity patterns.
+
+While the report doesn't provide a unique identifier or a specific campaign name, the combination of TTPs and techniques described strongly suggests that the MuddyWater threat actor group is responsible for the Zardoor backdoor attack.

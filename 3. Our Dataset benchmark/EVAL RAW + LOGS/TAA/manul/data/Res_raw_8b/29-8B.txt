@@ -1,0 +1,13 @@
+Based on the techniques, tactics, and procedures (TTPs) described in the report, I attribute the cyber incident to the threat actor group APT (Advanced Persistent Threat) 37.
+
+Here's a brief explanation of my reasoning:
+
+1. **Spear phishing emails**: APT 37 is known for using spear phishing emails as an initial vector for their attacks. The report mentions that the attackers adjust the emails to target a specific organization, which is a characteristic of APT 37's tactics.
+2. **Macro-based malware**: The report describes the use of macro-based malware to drop the Flagpro malware. APT 37 has been known to use macro-based malware in their attacks, such as the "StrRIDer" and "Crutch" malware families.
+3. **Use of MFC library**: The report mentions that the new version of Flagpro (v2.0) uses the MFC library, whereas the older version (v1.0) does not. APT 37 has been known to use the MFC library in some of their malware, such as the "BOND" malware family.
+4. **Obfuscation techniques**: The report describes the use of obfuscation techniques, such as inserting repetitive codes to hide important parts of the malware. APT 37 is known for using various obfuscation techniques to evade detection.
+5. **Use of COM objects**: The report mentions that Flagpro uses COM objects of Internet Explorer to communicate with its C&C server. APT 37 has been known to use COM objects in their malware to interact with the Windows operating system.
+6. **Communication with C&C server**: The report describes the communication between Flagpro and its C&C server, which is similar to the communication patterns observed in other APT 37 malware families.
+7. **Use of evading techniques**: The report mentions that the attackers adjust decoy files and file names to target a specific organization, and check carefully the target's environment. APT 37 is known for using various evading techniques to avoid detection, including using decoy files and adjusting their tactics based on the target's environment.
+
+Based on these similarities, I believe that APT 37 is likely responsible for the cyber incident described in the report.

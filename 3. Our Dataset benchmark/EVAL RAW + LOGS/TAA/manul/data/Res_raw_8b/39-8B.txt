@@ -1,0 +1,11 @@
+Based on the techniques, tactics, and procedures (TTPs) described in the report, I attribute the incident to the threat actor group known as **Earth Bent** (also known as **APT34**, **OilRig**, or **ELIZABETH THOMPSON**). Here's my reasoning:
+
+1. **Targeted phishing emails**: The report describes targeted spear-phishing emails sent to specific industry verticals, primarily in Israel, which is a characteristic tactics often employed by Earth Bent.
+2. **Spear-phishing lures**: The use of pornographic video and auto accident footage as lures is similar to past campaigns attributed to Earth Bent, such as the "OilRig" campaign, which used lures related to software updates and employment opportunities.
+3. **Delivery via RAR archives**: The report highlights the use of RAR archives to deliver the malware payload, which is a common technique employed by Earth Bent.
+4. **Malware behavior**: The malware's behavior, including keylogging, data exfiltration, and communication with command and control (C2) servers, is consistent with the TTPs used by Earth Bent in previous campaigns.
+5. **Encryption**: The use of AES-256 in CBC mode for encrypting data before exfiltration is a common technique employed by Earth Bent to evade detection.
+6. **Targeted industries**: The report mentions that the malware targeted specific industry verticals, primarily in Israel, which is consistent with Earth Bent's known targeting of organizations in the Middle East, particularly in the oil and gas, banking, and telecommunications sectors.
+7. **C2 domains**: The report provides examples of C2 domains (smilydesign.com, oowdesign.com) that are similar to those used by Earth Bent in previous campaigns.
+
+While other threat actors may also employ similar TTPs, the cumulative evidence points to Earth Bent as the likely culprit behind this cyber incident.

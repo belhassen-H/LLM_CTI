@@ -1,0 +1,11 @@
+Based on the techniques, tactics, and procedures (TTPs) described in the report, I believe the threat actor responsible for the "Galaxy" campaign is APT28, also known as Fancy Bear or Sofacy.
+
+Here's my reasoning:
+
+1. **Use of phishing emails with malicious Microsoft Office documents**: APT28 is known to use phishing emails as an initial vector of attack, often with malicious Office documents that exploit vulnerabilities in Microsoft products.
+2. **Exploitation of Microsoft Exchange vulnerabilities**: APT28 has been observed exploiting vulnerabilities in Microsoft Exchange in previous campaigns, including the use of CVE-2021-26855, CVE-2021-26857, CVE-2021-26858, and CVE-2021-27065, which are mentioned in the report.
+3. **Use of the "opportunity technique"**: APT28 is known to use this technique to inject malicious code into legitimate processes, allowing them to gain access to systems.
+4. **Use of CrashOverride malware**: While the report doesn't explicitly mention CrashOverride being associated with APT28, the modus operandi described, including the use of droppers, DNS tunneling, and custom encryption algorithms, is consistent with APT28's tactics.
+5. **Evasion techniques**: The use of code obfuscation, anti-debugging techniques, and domain generation algorithms to evade detection is also consistent with APT28's known TTPs.
+
+Given the cumulative evidence, I believe that the incident described in the report is attributed to APT28, a notorious Russian-speaking threat actor group.

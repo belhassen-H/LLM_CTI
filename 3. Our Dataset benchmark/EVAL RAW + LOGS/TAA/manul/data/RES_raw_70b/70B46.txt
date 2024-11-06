@@ -1,0 +1,12 @@
+Based on the analysis of the threat report, I attribute the incident to APT41 (also known as Winnti Group). Here's my reasoning:
+
+1. **Sponsorship**: The report mentions that the threat actor is likely sponsored by the Chinese government, which is consistent with APT41's known sponsorship.
+2. **Exploitation of CVE-2017-11882**: APT41 has been known to exploit this vulnerability in the past, as reported by various security researchers.
+3. **Process Hollowing**: This technique is commonly used by APT41 to inject malicious code into legitimate processes, making it harder to detect.
+4. **Custom protocol and C2 communication**: APT41 is known for using custom protocols and DNS tunneling for command and control (C2) communication, which matches the report's description.
+5. **Hardcoded RSA key and custom encryption algorithm**: APT41 has been observed using similar encryption methods in their malware, including hardcoded RSA keys.
+6. **Living Off The Land (LOTL) techniques**: APT41 frequently employs LOTL techniques, using legitimate system tools and binaries to perform malicious activities, making it harder to detect.
+7. **Timeline**: The reported attack timeline (2020-2022) is consistent with APT41's known activity during this period.
+8. **Similarities to other Chinese-sponsored APT groups**: APT41 is known to share TTPs with other Chinese-sponsored groups, which aligns with the report's statement.
+
+While the report does not provide a definitive match, the cumulative evidence points to APT41 as the most likely threat actor responsible for the incident.

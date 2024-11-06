@@ -1,0 +1,10 @@
+Based on the analysis of the threat report, I attribute the incident to the APT group known as "Emissary Panda" or "APT27". Here's my reasoning:
+
+1. **ExileRAT**: The use of ExileRAT as the Remote Access Trojan (RAT) is a strong indicator of Emissary Panda's involvement. ExileRAT has been linked to Emissary Panda in previous campaigns, and its TTPs are consistent with the group's modus operandi.
+2. **CVE-2017-11882 exploitation**: The exploitation of this specific vulnerability is also consistent with Emissary Panda's tactics. They have been known to use this vulnerability in previous phishing campaigns.
+3. **Domain Generation Algorithm (DGA) and Fast Flux techniques**: The use of DGA to generate domain names and the Fast Flux technique to rapidly change the IP address associated with the domain name are both indicative of Emissary Panda's C2 infrastructure. These techniques are commonly used by the group to evade detection and tracing.
+4. **User-Agent strings**: The use of the 'Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko' User-Agent string in the ExileRAT payload is consistent with Emissary Panda's TTPs. Additionally, the presence of the 'applescript' User-Agent string and the string 'Luckycat' in the C2 communication are strong indicators of Emissary Panda's involvement, as these have been previously linked to the group's activities.
+5. **Temporal analysis**: The attack timeline, with a peak in activity in June 2020, is also consistent with Emissary Panda's known activity patterns.
+6. **Overall TTPs**: The combination of the techniques, tactics, and procedures described in the report, including the phishing email, exploitation of a known vulnerability, use of a RAT, and sophisticated C2 infrastructure, are all consistent with Emissary Panda's modus operandi.
+
+While some of these indicators could be coincidental or unrelated, the cumulative analysis of the report suggests a strong attribution to Emissary Panda (APT27).

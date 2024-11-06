@@ -1,0 +1,15 @@
+Based on the report, I attribute the incident to OilRig (also known as APT34, Lyceum, or Siamesekitten), a cyberespionage group believed to be based in Iran.
+
+The evidence pointing to OilRig's involvement includes:
+
+1. **Similarities with previous OilRig campaigns**: The report mentions that the tactics, techniques, and procedures (TTPs) used in the Outer Space and Juicy Mix campaigns are similar to those used in previous OilRig campaigns, such as Out to Sea and HardPass.
+
+2. **Use of custom Chrome data dumper (MKG)**: The report mentions that the MKG tool was used in both the Outer Space and Out to Sea campaigns, which is a known OilRig tool.
+
+3. **Code similarities between Solar and Shark backdoors**: The report highlights that the backdoors used in the Outer Space and Juicy Mix campaigns (Solar and Mango) share similarities with those used in previous OilRig campaigns, such as Shark.
+
+4. **Use of VBS droppers with string obfuscation**: The report describes the use of VBS droppers with a specific string obfuscation technique, which is consistent with OilRig's known modus operandi.
+
+5. **Post-compromise tools and techniques**: The report mentions the use of post-compromise tools, such as SampleCheck5000 (SC5k) downloader, browser-data dumpers (CDumper and EDumper), and a Windows Credential Manager stealer (IDumper), which are all consistent with OilRig's known toolset and tactics.
+
+Overall, the cumulative evidence points to OilRig as the threat actor responsible for the Outer Space and Juicy Mix campaigns.

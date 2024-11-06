@@ -1,0 +1,21 @@
+Based on the analysis of the threat report, I attribute the incident to the Lazarus Group, a subgroup of which is Andariel. My reasoning is as follows:
+
+1. **Programming language**: The malware is written in PureBasic, a programming language rarely used in malware creation, which is a distinct characteristic of the Lazarus Group.
+2. **Basic loader functionality**: The malware's capabilities, such as downloading files, executing shell commands, and sending back console output, are consistent with the Lazarus Group's typical malware behavior.
+3. **Command & Control (C2) server**: The configured C2 server suggests that the threat actors might have compromised the web server of the National Institute of Virology in India, which aligns with the Lazarus Group's interest in targeting healthcare and medical research entities, particularly during the COVID-19 pandemic.
+4. **DPRK actor profile**: The report highlights the DPRK's motivation to target India's healthcare sector, including the National Institute of Virology, which is a key player in India's fight against COVID-19. This motivation is consistent with the Lazarus Group's activities.
+5. **Historical context**: The report mentions that the malware family was first discovered in 2020, which coincides with the Lazarus Group's increased activity during the COVID-19 pandemic.
+6. **Technical details**: The malware's communication protocol, including the use of HTTP, socket functions, and simple encryption schemes, are all consistent with the Lazarus Group's known tactics, techniques, and procedures (TTPs).
+
+Based on these factors, I conclude that the threat actor responsible for this incident is likely Andariel, a subgroup of the Lazarus Group.Based on the analysis of the malware and the techniques, tactics, and procedures (TTPs) described in the report, I attribute the incident to the threat actor group known as Andariel, a subgroup of the North Korean Lazarus Group.
+
+Here's my reasoning:
+
+1. **Programming language**: The malware is written in PureBasic, a rare choice for malware development. This uniqueness matches the modus operandi of Andariel, known to experiment with unconventional programming languages.
+2. **Simple download and shell command execution capabilities**: The malware's basic functionality is similar to other malware families attributed to Andariel, which often focus on initial access and reconnaissance.
+3. **DPRK origin and targeting**: The report highlights the DPRK's motivation to target Indian institutions, particularly in the medical research sector, which aligns with Andariel's known interests and targeting patterns.
+4. **Command and Control (C2) infrastructure**: The use of a compromised web server, specifically the National Institute of Virology in India, is consistent with Andariel's tactics of exploiting web servers and using them as C2 infrastructure.
+5. **Technical details**: The malware's communication protocol, including the use of HTTP, socket functions, and simple encryption schemes, is similar to other malware families linked to Andariel.
+6. **Historical context**: The report mentions that the malware family has been largely unchanged since 2020, which coincides with the time frame when Andariel was actively targeting organizations in the medical research sector.
+
+While the [PLACEHOLDER] in the report prevents direct attribution, the cumulative evidence points to Andariel as the likely threat actor responsible for this cyber incident.

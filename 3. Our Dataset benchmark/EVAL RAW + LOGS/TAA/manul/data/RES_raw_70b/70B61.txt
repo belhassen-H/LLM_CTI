@@ -1,0 +1,11 @@
+Based on the TTPs described in the threat report, I attribute the incident to the APT28 (Fancy Bear) threat actor group. Here's my reasoning:
+
+1. **Use of LOLBins and fileless malware**: APT28 is known to use Living Off the Land (LOTL) techniques, leveraging legitimate system utilities to evade detection. This aligns with the report's mention of using mshta.exe to download and execute malicious code.
+2. **Exploitation of Microsoft Office vulnerabilities**: APT28 has a history of exploiting Microsoft Office vulnerabilities, such as CVE-2017-0199, to deliver malware payloads.
+3. **Use of JavaScript to download malicious code**: APT28 has been observed using JavaScript to download and execute malicious code, as described in the report.
+4. **Custom-built modular backdoor**: The Kazuar backdoor's modular design and capabilities are similar to those used by APT28 in previous campaigns.
+5. **Anti-forensic techniques**: APT28 is known to employ anti-forensic techniques, such as deleting system logs and hiding malicious files in legitimate system directories, to conceal their activities.
+6. **Spear-phishing email with malicious Office document**: APT28 often uses spear-phishing emails with malicious Office documents as an initial attack vector.
+7. **Similarities with previous attacks**: The report mentions that the attack is attributed to the [PLACEHOLDER] group based on similarities with previous attacks and the use of similar TTPs. APT28 has a well-documented history of using similar tactics and techniques in their campaigns.
+
+While the report does not provide direct attribution, the combination of these TTPs and techniques strongly suggests that APT28 is responsible for the incident.

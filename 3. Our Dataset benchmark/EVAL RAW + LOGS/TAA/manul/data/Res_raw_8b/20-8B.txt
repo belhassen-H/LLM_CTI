@@ -1,0 +1,11 @@
+Based on the report, I attribute the incident to the [PLACEHOLDER] APT group with a moderate level of confidence. The evidence that supports this attribution includes:
+
+1. The IP address mentioned in the report (23.111.184.119) has been attributed to [PLACEHOLDER] C2 activity by the cybersecurity community.
+2. The targeted sector and country (Macao, China) fit within [PLACEHOLDER]'s target profile.
+3. The Command-and-Control panel presents known development patterns attributed to [PLACEHOLDER] APT.
+
+The report also mentions that [PLACEHOLDER] is known for targeting law enforcement, pharmaceuticals, and automotive manufacturers, among other industries, which is consistent with the target profile of this campaign. Additionally, the use of the same IP address for other malicious activities not related to this specific threat suggests that the actor may be using this IP as a C2 server, which is also consistent with [PLACEHOLDER]'s tactics.
+
+However, the report also mentions that the IP address remained active for a long time after being publicly exposed, which suggests that the actor may be using a new IP address or has modified their tactics to avoid detection. This reduces the confidence level to moderate.
+
+Overall, while there are some inconsistencies in the evidence, the majority of the indicators point towards [PLACEHOLDER] APT group being responsible for this campaign.

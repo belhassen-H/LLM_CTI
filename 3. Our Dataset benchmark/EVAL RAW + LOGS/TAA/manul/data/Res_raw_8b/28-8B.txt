@@ -1,0 +1,11 @@
+Based on the techniques, tactics, and procedures (TTPs) described in the report, I believe that the threat actor responsible for this incident is the APT group, known as DarkHotel.
+
+Here's a breakdown of the evidence that leads me to this conclusion:
+
+1. The report mentions that the attack code and malware (TSCookie and Bifrose) are associated with [PLACEHOLDER], which is a known alias for DarkHotel.
+2. The malware, Hipid, is designed to receive commands from a C2 server and execute arbitrary commands, which is a common behavior observed in DarkHotel's malware.
+3. The use of host command to resolve host names and the presence of S-Box data used for encryption in some samples of the malware are also consistent with DarkHotel's techniques.
+4. The discovery of the malware on the server used by the attacker, along with the presence of known DarkHotel malware (TSCookie and Bifrose), suggests a high level of confidence in attributing the incident to DarkHotel.
+5. The report's mention of [PLACEHOLDER]'s recent activity exploiting vulnerabilities in externally accessible systems is also consistent with DarkHotel's modus operandi.
+
+While direct references to DarkHotel have been replaced with [PLACEHOLDER], the details provided in the report strongly suggest that this group is responsible for the incident.

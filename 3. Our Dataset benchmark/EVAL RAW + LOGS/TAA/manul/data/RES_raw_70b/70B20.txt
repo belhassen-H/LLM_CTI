@@ -1,0 +1,10 @@
+Based on the report, I attribute the incident to the threat actor group "Apostle" with a moderate level of confidence. Here's my reasoning:
+
+1. **TTPs:** The report highlights the use of spear phishing emails with malicious Excel attachments, containing macros that enable PowerShell commands to communicate with the Command-and-Control (C2) server. These TTPs are consistent with Apostle's modus operandi, as described in previous reports.
+2. **Targeting:** The campaign targets luxury hotels in Macao, China, which aligns with Apostle's known targeting of high-value individuals, such as executives and business leaders, in the hospitality sector.
+3. **C2 Infrastructure:** The report mentions the IP address "23.111.184[.]119" as being used for system information exfiltration, which has been attributed to Apostle's C2 activity by the cybersecurity community.
+4. **Command-and-Control Panel:** The report notes that the C2 panel presents known development patterns attributed to Apostle APT.
+5. **Lolbas Technique:** The use of the lolbas technique, specifically the "SyncappvpublishingServer.vbs" script, to execute PowerShell commands is a tactic commonly associated with Apostle.
+6. **Metadata Analysis:** The analysis of the Excel file's metadata, including the Office version (Excel 2013) and operating system (Windows 8), further supports the attribution to Apostle, as these details are consistent with their previously observed TTPs.
+
+While the confidence level is moderate due to the IP address remaining active for a prolonged period and being associated with other malicious activity, the cumulative evidence suggests that Apostle is the most likely threat actor responsible for this campaign.

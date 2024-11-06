@@ -1,0 +1,11 @@
+Based on the analysis of the report, I attribute the cyber incident to the Kimsuky group, also known as the Hidden Cobra threat group. Here are the reasons that led me to this conclusion:
+
+1. Techniques and Tactics: The report highlights the use of spear phishing, watering hole, and supply chain attacks, which are tactics commonly employed by the Kimsuky group. The incident also involves the distribution of malware, including backdoors, RATs, and data stealers, which are typical of the group's activities.
+2. Target Industries: The targeted industries in South Korea, including national defense, shipbuilding, energy, and communications, are also a hallmark of the Kimsuky group's operations.
+3. Malware employed: The presence of malware strains such as TigerRat, Andardoor, and DurianBeacon, which are similar to those used by the Kimsuky group, is a strong indicator of their involvement.
+4. Command and Control (C2) Servers: The report highlights the use of similar C2 servers, such as the domain kro.kr, which is a domain commonly used by the Kimsuky group.
+5. Tools and Techniques: The use of tools like Ngrok and Dotfuscator, and the encryption methods employed, are similar to those used by the Kimsuky group.
+6. Attack Patterns: The report identifies similarities between the attack patterns, such as the use of Innorix Agent, spear phishing, and the distribution of malware, with past attacks attributed to the Kimsuky group.
+7. Connections to Past Attack Cases: The report highlights connections between the recent attacks and past attack cases, including similarities in attack targets, methods, and malware used, which strengthens the attribution to the Kimsuky group.
+
+In conclusion, the evidence presented in the report strongly suggests that the Kimsuky group, also known as the Hidden Cobra, is responsible for the cyber incident described in the report.

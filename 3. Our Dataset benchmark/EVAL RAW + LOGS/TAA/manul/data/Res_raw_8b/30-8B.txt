@@ -1,0 +1,11 @@
+Based on the techniques, tactics, and procedures (TTPs) described in the report, I attribute the incident to the DoNot Team (also known as [PLACEHOLDER]). Here's my reasoning:
+
+1. **Consistency with known TTPs**: The report mentions that the DoNot Team's TTPs are consistent across multiple attacks. This suggests that the group has a established playbook that they follow, which is consistent with the TTPs described in the report.
+2. **Targeted efforts**: The report indicates that the group targets specific entities in South Asia, including government and military organizations, ministries of foreign affairs, and embassies. This focuses the group's efforts on specific high-value targets, which is consistent with the group's prior activities.
+3. **Use of spear phishing emails**: The report mentions that the DoNot Team uses spear phishing emails with malicious attachments to initiate infections. This is consistent with the group's previous use of spear phishing emails to deliver malware.
+4. **Modular architecture**: The report highlights the group's use of a modular architecture, where each module is delivered in a separate file. This is consistent with the group's prior use of modular malware frameworks.
+5. **Use of Google Drive**: The report mentions that the group uses Google Drive to store command and control (C2) server addresses. This is consistent with the group's prior use of cloud-based storage services to store C2 infrastructure.
+6. **Use of similar programming languages and tools**: The report mentions that the group uses a variety of programming languages, including C++, .NET, and Python, as well as tools such as Windows Management Instrumentation (WMI) and COM objects. This is consistent with the group's prior use of these languages and tools.
+7. **Presence of XOR keys and debugging flags**: The report mentions that the shellcode contains XOR keys used in the second-stage shellcode, as well as debugging flags. This is consistent with the group's prior use of XOR keys and debugging flags to evade detection and test malware samples.
+
+Based on these similarities, I conclude that the incident is likely attributed to the DoNot Team (also known as [PLACEHOLDER]).

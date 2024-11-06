@@ -1,0 +1,13 @@
+Based on the techniques, tactics, and procedures (TTPs) described in the report, I attribute the incident to the threat actor group Lazarus Group, also known as APT38.
+
+My reasoning is as follows:
+
+1. The use of a spear-phishing email campaign targeting Japanese companies in the defense industry is a classic trait of Lazarus Group's attack methods. They have been known to target specific industries and companies as part of their espionage and data theft operations.
+2. The exploitation of the CVE-2017-11882 vulnerability in Microsoft Excel is consistent with Lazarus Group's tactics. They have been known to use a variety of exploitation techniques, including but not limited to, using publicly known vulnerabilities to gain initial access.
+3. The use of the Meterpreter payload to establish a connection to the Command and Control (C2) server is also consistent with Lazarus Group's methods. They have been known to use Meterpreter as a preferred payload to gain persistence and control over compromised systems.
+4. The use of the Fast Flux technique to host the C2 server on a compromised Wordpress site and to evade detection is also a trait of Lazarus Group's tactics. They have been known to use similar techniques to avoid detection by security solutions.
+5. The use of DLL side-loading to inject malware into legitimate system processes is also consistent with Lazarus Group's methods. They have been known to use a variety of techniques to inject malware, including but not limited to, DLL side-loading.
+6. The use of fileless malware techniques, such as storing the malware in the Windows registry, to make it harder to detect is also consistent with Lazarus Group's methods. They have been known to use a variety of techniques to evade detection and to hide their malicious activities from security solutions.
+7. The timing of the attack, between August 2020 and January 2021, is also consistent with Lazarus Group's historical attack timeline. They have been known to conduct extended campaigns and to target specific industries and companies over an extended period of time.
+
+Based on these TTPs and other relevant information described in the report, I believe that the attack described is likely attributed to the Lazarus Group.

@@ -1,0 +1,11 @@
+Based on the techniques, tactics, and procedures (TTPs) described in the report, I believe the threat actor responsible for the incident is APT C-23, also known as Desert Falcon.
+
+My reasoning is as follows:
+
+1. The report mentions that the threat actor is based out of Gaza and targets organizations and individuals related to Palestine, which matches the profile of APT C-23, a group known to be motivated by the Palestinian cause.
+2. The use of Delphi-based malware, specifically the Micropsia implant, is a key indicator of APT C-23's involvement. This malware has been associated with this group in previous research and reports.
+3. The TTPs described in the report, including the use of politically themed decoy documents, email-based delivery, and RAT capabilities, align with APT C-23's known tactics.
+4. The report mentions that the threat actor has continued to operate using the same TTPs over the past four years, despite public exposure of their campaigns and implants. This lack of change in TTPs suggests that the group is comfortable with their approach and has not felt the need to significantly modify their tactics, which is consistent with APT C-23's modus operandi.
+5. The report highlights the group's motivation and means to operate longstanding campaigns against the same targets, which matches APT C-23's profile as a threat actor focused on espionage and information theft.
+
+Overall, the TTPs, malware, and motivations described in the report point to APT C-23 as the responsible threat actor.

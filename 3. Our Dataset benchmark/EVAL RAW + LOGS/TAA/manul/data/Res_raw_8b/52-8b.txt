@@ -1,0 +1,11 @@
+Based on the techniques, tactics, and procedures (TTPs) described in the threat report, I attribute the cyber incident to the "Cobalt Strike" threat actor, also known as "AstraLux".
+
+Here's my reasoning:
+
+1. Exploit of a publicly disclosed vulnerability (CVE-2022-1388) using a RCE attack vector, which is a typical tactic employed by Cobalt Strike.
+2. Use of a DNS query to identify the BIG-IP device and its version, followed by a crafted HTTP request to exploit the RCE vulnerability. This is consistent with Cobalt Strike's TTPs, which often involve exploiting vulnerabilities in publicly facing applications.
+3. Execution of a shell command to download a malicious payload from a remote server, and execution of the payload to gain root access. This is also consistent with Cobalt Strike's tactics, which often involve deploying webshells and escalating privileges.
+4. Exfiltration of sensitive data using a webshell, which is a common technique used by Cobalt Strike to steal sensitive information.
+5. The attack's fingerprint, including the DNS query for 'version.bind' and the HTTP request for '/tmui/login.jsp?/tmui/neo/', is also consistent with Cobalt Strike's TTPs, which often involve similar exploitation and command execution patterns.
+
+Cobalt Strike, also known as AstraLux, is a well-known threat actor group known for their advanced tactics and techniques, including exploitation of publicly disclosed vulnerabilities, use of webshells, and exfiltration of sensitive data. They have been linked to numerous cyber attacks and campaigns, and their TTPs are consistent with the methods described in the threat report.

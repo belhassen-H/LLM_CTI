@@ -1,0 +1,11 @@
+Based on the TTPs described in the report, I believe the threat actor responsible is Turla. Here's why:
+
+1. **Russian-based group**: The report mentions that the threat actor is a Russian-based group, which aligns with Turla's known origins.
+2. **Similarity to TinyTurla**: The malware analyzed in the report, Tiny[PLACEHOLDER], shares many similarities with Turla's known backdoor, TinyTurla. The use of a Windows Service, registry key storage, and command-and-control (C2) server communication via HTTP requests are all consistent with Turla's tactics.
+3. **Use of WinHTTP**: Turla is known to use WinHTTP for C2 communication, which is consistent with the report's description of the malware's network behavior.
+4. **Registry key manipulation**: Turla has been observed modifying registry keys to store configuration data and communicate with C2 servers, which aligns with the report's description of the malware's registry interactions.
+5. **Command structure**: The 12 different commands implemented by the malware, including process creation, file exfiltration, and registry modification, are reminiscent of Turla's command-and-control structure.
+6. **Low-level system interactions**: The malware's use of low-level system APIs, such as SetHandleInformation and CreatePipe, is consistent with Turla's tactics, which often involve manipulating system resources to achieve its goals.
+7. **Avoidance of detection**: The malware's ability to set security flags to ignore SSL errors and use HTTP headers to evade detection are tactics commonly employed by Turla to remain under the radar.
+
+While some of these TTPs may be shared with other threat actors, the cumulative evidence points strongly towards Turla as the responsible threat actor.

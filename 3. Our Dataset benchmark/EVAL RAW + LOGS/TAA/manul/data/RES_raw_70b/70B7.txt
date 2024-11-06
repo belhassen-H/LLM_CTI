@@ -1,0 +1,11 @@
+Based on the analysis of the threat report, I attribute the incident to the threat actor group known as UNC1151 (also known as Ghostwritten Team).
+
+Here's my reasoning:
+
+1. **Geopolitical alignment**: The report highlights that the threat actor's objectives align closely with the interests of Belarus and Russia's governments, which is consistent with UNC1151's known motivations.
+2. **TTPs**: The use of phishing websites, credential phishing, and deployment of malicious documents tailored to the targeted organization's specific needs mirrors UNC1151's modus operandi. Additionally, the exploitation of application vulnerabilities to compromise specific targets or staging servers is also a known tactic employed by UNC1151.
+3. **Lure techniques**: The threat actor's use of mimicked government domains to distribute malicious downloads and government email credential phishing webpages is reminiscent of UNC1151's tactics.
+4. **Malware and tooling**: While the report doesn't provide direct evidence of malware overlap, the use of batch scripts disguised as virus scanners, PowerShell scripting, and the abuse of legitimate Windows tools are all indicative of UNC1151's arsenal.
+5. **Resourcefulness and creativity**: The report describes the threat actor as resource-limited but highly creative, which is a characteristic commonly associated with UNC1151.
+
+While there isn't a direct match of malware families or campaign names, the cumulative evidence suggests that the TTPs, techniques, and motivations described in the report are consistent with UNC1151's activities.

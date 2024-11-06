@@ -1,0 +1,13 @@
+Based on the techniques, tactics, and procedures (TTPs) described in the threat report, I attribute the incident to the Lazarus Group.
+
+Here's my reasoning:
+
+1. The use of a fake cryptocurrency trading platform as a lure, indicating an attempt to compromise organizations involved in cryptocurrency trading, is a signature tactic of the Lazarus Group.
+2. The exploitation of a vulnerability in Equation Editor (CVE-2017-0199) is consistent with the group's modus operandi, which has been observed in previous campaigns.
+3. The use of a multi-stage malware delivery mechanism, including execution of a second stage payload and installation of a backdoor (AppleJeus), is typical of the group's tactics.
+4. The use of code obfuscation, anti-debugging, and encryption to evade detection is also characteristic of the Lazarus Group's tactics.
+5. The targeting of financial institutions and organizations involved in cryptocurrency trading, with the aim of financial gain, is consistent with the group's motivations.
+
+Lazarus Group, also known as Hidden Cobra, is a sophisticated threat actor group sponsored by the North Korean government. They have been involved in various cyber attacks, including those targeting the financial sector, and have used similar tactics, techniques, and procedures to evade detection.
+
+In summary, the combination of techniques, tactics, and procedures described in the threat report, including the use of a fake cryptocurrency trading platform, exploitation of Equation Editor, multi-stage malware delivery, code obfuscation, anti-debugging, and encryption, along with the targeting of financial institutions and motivations of financial gain, strongly suggest that the incident was perpetrated by the Lazarus Group.

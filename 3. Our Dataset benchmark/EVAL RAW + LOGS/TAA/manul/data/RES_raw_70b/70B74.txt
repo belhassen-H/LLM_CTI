@@ -1,0 +1,11 @@
+Based on the techniques, tactics, and procedures (TTPs) described in the report, I believe the incident can be attributed to the APT36 threat actor group.
+
+My reasoning is as follows:
+
+1. **Geopolitical connection**: The report mentions that the threat actor group is believed to be of Pakistani origin, which aligns with APT36's known origin and targeting preferences. APT36 is a Pakistan-based threat actor group that has been known to target entities in the region.
+2. **Use of Android malware**: APT36 has a history of using Android malware in their campaigns, and SpyNote is a known malware strain that has been used by this group in the past.
+3. **Phishing attacks**: Phishing is a common tactic used by APT36 to distribute malware, which aligns with the report's description of phishing attacks used to spread the malware.
+4. **Use of DGA**: APT36 has been known to use DGA in their malware communications, making it difficult for security researchers to track and block their C2 servers.
+5. **Timing and targeting**: The campaign's timing (June 2020 to August 2020) and targeting of countries like the United States, India, and Pakistan also align with APT36's known activities and interests.
+
+While the report replaces the threat actor group's name with [PLACEHOLDER], the combination of TTPs, targeting preferences, and geopolitical connections described in the report point to APT36 as the likely threat actor responsible for the incident.

@@ -1,0 +1,13 @@
+Based on the provided information, I believe the threat actor responsible for this incident is likely the Advanced Persistent Threat (APT) group known as APT28, also referred to as Fancy Bear or Sofacy.
+
+My reasoning is as follows:
+
+1. The use of a variant of the SideTwist Trojan is a common indicator of APT28's tactics. The group has been known to use this Trojan in several other incidents.
+2. The exploitation of the CVE-2017-11882 vulnerability is consistent with APT28's previous tactics. The group has been known to exploit a wide range of vulnerabilities to deliver malware.
+3. The use of template injection to inject malicious code into legitimate documents is another technique commonly used by APT28.
+4. The group's focus on stealing sensitive information and moving laterally within the network, as demonstrated by the SideTwist Trojan's capabilities, is consistent with APT28's goals.
+5. The use of custom protocols for communication with C2 servers is also consistent with APT28's tactics, as the group often uses custom communication protocols to evade detection.
+6. APT28 has been known to use German and US-based C2 servers in the past, which aligns with the locations listed in the report.
+7. The attack occurred between April and May 2022, which is within APT28's typical timeframe for conducting operations.
+
+While the report does not provide direct evidence of APT28's involvement, the combination of these techniques, tactics, and indicators suggests a strong correlation with the group's known methods and characteristics.

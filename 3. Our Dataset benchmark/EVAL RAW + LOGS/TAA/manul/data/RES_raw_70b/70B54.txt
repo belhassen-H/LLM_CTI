@@ -1,0 +1,12 @@
+Based on the techniques, tactics, and procedures (TTPs) described in the report, I believe the incident can be attributed to the threat actor group known as "Operation DustySky" or "PLATINUM".
+
+My reasoning is as follows:
+
+1. The use of "Air-Gap Jumping" and the creation of a malicious Wi-Fi hotspot to transmit stolen data to a command and control server is a unique TTP that has been previously associated with PLATINUM.
+2. The use of social engineering to trick victims into inserting infected USB drives into air-gapped machines is also a known tactic used by PLATINUM.
+3. The custom-built implant used in the attack, which employed techniques such as code injection, API hooking, and anti-debugging to evade detection, is similar to malware used in previous PLATINUM operations.
+4. The timeline of the attack, between 2018 and 2020, aligns with known PLATINUM activity during that period.
+
+PLATINUM is a known Advanced Persistent Threat (APT) actor, believed to be of Chinese origin, which has been responsible for several high-profile attacks on governments, industries, and organizations worldwide. Their capabilities and TTPs, as described in the report, match the known profile of PLATINUM.
+
+While the report does not provide explicit evidence of PLATINUM's involvement, the combination of unique TTPs and the custom-built implant's characteristics point strongly towards their responsibility for the incident.

@@ -1,0 +1,11 @@
+Based on the techniques, tactics, and procedures (TTPs) described in the report, I believe the threat actor responsible for the incident is the Lazarus Group. Here's my reasoning:
+
+1. Connection to North Korea: The report mentions that the [PLACEHOLDER] group is deemed supported by North Korea, which is a known characteristic of the Lazarus Group.
+2. Historical attack patterns: The report mentions that the group has been active since 2013, initially targeting North Korea-related research institutes in South Korea, and then expanding to other countries since 2017. This matches the known attack patterns of the Lazarus Group.
+3. Use of social engineering attacks: The report mentions that the group typically uses social engineering attacks like spear phishing, which is a common TTP of the Lazarus Group.
+4. Use of Meterpreter: The report highlights the use of Meterpreter, a backdoor malware, which is a tool commonly used by the Lazarus Group in their attacks.
+5. Development of proxy malware in GoLang: The report mentions that the proxy malware used in this attack is developed in GoLang, which is a recent trend observed in Lazarus Group's operations.
+6. Use of similar C&C addresses: The report mentions that the C&C address used in the attack had been used by the [PLACEHOLDER] group in the past, which suggests a connection to the Lazarus Group.
+7. Similarity in attack methods: The report mentions that the method of having the regsvr32.exe process running the malware is the same as the method used by the [PLACEHOLDER] group in the past, which is a known TTP of the Lazarus Group.
+
+While the report does not provide direct evidence of the threat actor's identity, the cumulative weight of these indicators points strongly towards the Lazarus Group as the responsible party.

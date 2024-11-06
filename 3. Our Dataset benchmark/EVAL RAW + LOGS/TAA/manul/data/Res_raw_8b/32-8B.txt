@@ -1,0 +1,9 @@
+Based on the techniques, tactics, and procedures (TTPs) described in the report, I believe that the Buckeye attack group, also known as APT3 and Gothic Panda, is responsible for the cyber incident.
+
+The report highlights several key findings, including the use of [PLACEHOLDER] tools by Buckeye at least a year prior to the Shadow Brokers leak, the exploitation of a previously unknown Windows zero-day vulnerability, and the existence of a custom exploit tool (Bemstour) that was specifically designed to install DoublePulsar.
+
+The TTPs described in the report are consistent with those of Buckeye, which has been known to target organizations in the United States, Hong Kong, and other countries. The use of DoublePulsar, Bemstour, and other [PLACEHOLDER] tools is also consistent with Buckeye's known tactics.
+
+Additionally, the report notes that the variant of DoublePulsar used by Buckeye was different from that leaked by the Shadow Brokers, which suggests that Buckeye may have had access to the malware before the Shadow Brokers leak. This is corroborated by the fact that Buckeye began using DoublePulsar in March 2016, whereas the Shadow Brokers leak occurred in April 2017.
+
+Overall, based on the information provided in the report, I believe that the Buckeye attack group is responsible for the cyber incident.

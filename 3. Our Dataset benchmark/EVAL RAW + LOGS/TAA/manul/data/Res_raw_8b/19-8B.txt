@@ -1,0 +1,12 @@
+Based on the provided threat report, I attribute the incident to the North Korean state-sponsored threat actor group, Lazarus. My reasoning is as follows:
+
+1. The report mentions that the threat actor group is known for its expertise in exploiting 0day vulnerabilities, which is a characteristic of the Lazarus group.
+2. The report references the exploits CVE-2018-8174, CVE-2018-8373, CVE-2019-1458, and others, which are similar to the exploits used by Lazarus in previous campaigns.
+3. The report mentions the use of CVE-2017-8570 and CVE-2017-11882, which are high-risk issues in Microsoft Office and are often exploited by Lazarus.
+4. The report highlights the group's ability to leverage stolen certificates and deploy .HTA files to compromise hotel Wi-Fi networks, which is a tactic similar to that used by Lazarus in previous campaigns.
+5. The report mentions the use of Gh0st RAT malware, which is also associated with Lazarus.
+6. The report notes that the group has targeted a wide range of countries, including North Korea, South Korea, Japan, and China, which is consistent with Lazarus's known targeting profile.
+7. The report's reference to the "Operation WizardOpium" campaign, which exploited a Chrome Browser vulnerability, and the use of a Windows privilege escalation 0day exploit (CVE-2019-1458), suggests a level of sophistication and resourcefulness similar to Lazarus's capabilities.
+8. The report's mention of the Ramsay toolkit and its connection to Lazarus through code similarities and exploit patterns further supports the attribution to Lazarus.
+
+While other threat actors may share some similarities with the described TTPs, the cumulative evidence points to Lazarus as the most likely responsible group.

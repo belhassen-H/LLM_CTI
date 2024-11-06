@@ -1,0 +1,11 @@
+Based on the description of the cyber incident, I attribute the incident to the Platinum group, also known as Terminal, with high confidence. Here's my reasoning:
+
+1. **Exploitation of vulnerabilities in Microsoft Office and Adobe Flash**: Platinum is known to exploit vulnerabilities in Microsoft Office and Adobe Flash to deliver custom-made malware payloads, which matches the incident report.
+2. **Phishing emails or infected installers**: The initial exploitation vector via phishing emails or infected installers is consistent with Platinum's tactics.
+3. **CVE-2012-1856, CVE-2015-1641, and CVE-2018-4878**: These specific vulnerabilities correspond to those mentioned in the report, and Platinum is known to exploit similar vulnerabilities.
+4. **Custom-made Trojan or variant of XtremeRAT or PlugX malware**: The report describes the malware as a custom-made Trojan or a variant of XtremeRAT or PlugX, which matches Platinum's usual malware payloads.
+5. **PowerShell and Mimikatz usage**: Platinum is known to use legitimate tools such as PowerShell and Mimikatz for credential harvesting and lateral movement, which is consistent with the report.
+6. **Fileless malware**: Platinum's use of fileless malware, which resides only in memory and leaves no traces on disk, making it difficult to detect, is also consistent with the report.
+7. **Timeline**: The timestamps associated with Platinum's activities, including June 2013, December 2014, May 2015, and August 2019, match the reported incident.
+
+Given the strong correlation between the incident report and Platinum's known TTPs, I conclude that the Platinum group, also known as Terminal, is responsible for the cyber incident described.

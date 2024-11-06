@@ -1,0 +1,13 @@
+Based on the TTPs described in the report, I attribute the [PLACEHOLDER] group's Zardoor backdoor attack to the APT34 (OilRig) threat actor group.
+
+My reasoning is as follows:
+
+1. The attack involves a phishing email with a malicious Microsoft Office document exploiting a CVE-2017-11882 vulnerability, which is a common technique used by APT34.
+2. The use of a compromised website to download the first-stage payload and a hardcoded C2 server to download the second-stage payload is consistent with APT34's methods.
+3. The Zardoor backdoor's custom protocol and encryption using a hardcoded key are both characteristics of APT34's malware.
+4. The malware's capabilities, such as executing commands, uploading and downloading files, and installing additional malware, are similar to those of APT34's earlier malware versions.
+5. The use of anti-forensic techniques, such as deleting logs and disabling Windows Defender, is also consistent with APT34's tactics.
+6. The combination of LOTL and fileless malware techniques to evade detection is a common approach used by APT34 to remain undetected.
+7. The targeting of victims in the Middle East is also consistent with APT34's historical targeting patterns, as they have been known to target organizations and individuals in the region.
+
+Overall, the TTPs described in the report, including the use of phishing emails, exploitation of vulnerabilities, and the use of custom malware with anti-forensic techniques, are consistent with APT34's modus operandi.

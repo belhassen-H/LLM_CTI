@@ -1,0 +1,12 @@
+Based on the analysis of the provided threat report, I believe that the cyber-mercenary group responsible for the new campaign is the same group as the one responsible for the original "[PLACEHOLDER]" campaign, which was described in the 2018 report. The reason for this attribution is as follows:
+
+1. The Bandook spyware is used in both campaigns, with the latest sample having 148 unique commands, compared to 120 in the previous sample.
+2. The command and control (C2) server domain has changed, but the secondary infection domain (unclesow.com) remains the same, indicating a continuity of operations.
+3. The tactics, techniques, and procedures (TTPs) used in the campaigns are similar, including the use of phishing-related domains and the mechanism for downloading additional DLLs.
+4. The malware contains capabilities such as taking control of the mouse, recording the screen, and starting a remote desktop session, which are similar to those described in the original report.
+5. The fact that the source code for Bandook is not public and the malware is not for sale suggests that it is a proprietary tool developed and controlled by [PLACEHOLDER] group.
+6. The connection to Latin America, particularly the Dominican Republic and Venezuela, is consistent with the group's previous activities.
+
+While it is possible that the group is working on behalf of a government actor, the report does not provide sufficient evidence to establish the motivation behind the campaign. However, given the group's history of working with governments on politically motivated campaigns, it is reasonable to consider this possibility.
+
+The fact that the group has changed their command and control server domains and the secondary infection domain, but has not changed the malware or the tactics, suggests that they are trying to avoid detection and continue their operations discreetly.

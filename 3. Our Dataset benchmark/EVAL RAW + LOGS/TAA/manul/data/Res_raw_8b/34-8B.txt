@@ -1,0 +1,9 @@
+Based on the provided threat report, I attribute the incident to [PLACEHOLDER]. My reasoning is as follows:
+
+1. Mention of Bandook malware: [PLACEHOLDER] has been previously associated with the Bandook malware, as reported by Malware Hunter Team in 2019. The discovery of new variants of this malware, including those with legitimate signing certificates, suggests a clear connection to this threat actor.
+2. Presence of legitimate signing certificates: The use of legitimate signing certificates from the Certum certificate authority indicates a level of sophistication and attempted to evade detection by using trusted certificates to sign the malware. This is consistent with [PLACEHOLDER]'s past behavior and tactics.
+3. Command and control domains: Checkpoint researchers discovered new command and control domains in use by [PLACEHOLDER], which suggests the actor is still active and using similar infrastructure for their operations.
+4. Operational security: Although [PLACEHOLDER] has shown improvements in operational security, their past behavior has been characterized as "impressively lax" on several occasions. The fact that they continue to use legitimate signing certificates and new command and control domains suggests that they may still be lacking in operational security best practices.
+5. Target range: The reported targets, covering government, financial, and other institutions across multiple countries, are consistent with [PLACEHOLDER]'s past activities and the type of targets they typically target.
+
+Based on these factors, I believe that this incident is attributed to the [PLACEHOLDER] threat actor, which has been tracked by EFF as a cyber-mercenary group targeting civil society on behalf of government interests in Kazakhstan and Lebanon.

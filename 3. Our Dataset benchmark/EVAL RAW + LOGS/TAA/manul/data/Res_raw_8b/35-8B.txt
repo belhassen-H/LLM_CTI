@@ -1,0 +1,9 @@
+Based on the analysis of the threat report, I attribute the incident to Molerats (aka The Gaza Cybergang). Here's my reasoning:
+
+1. **Targeting and phishing themes**: The report mentions that the attackers targeted high-ranking political figures and government officials in the Middle East, which aligns with Molerats' known modus operandi. The phishing themes used, such as Israeli-Saudi relations, Hamas elections, and recent political events, also mirror Molerats' tactics.
+2. **Technical similarities with previously attributed attacks**: The report mentions the use of SharpStage, DropBook, and MoleNet, which share similarities with the Spark backdoor attributed to Molerats. The correlation between these tools and the Pierogi backdoor, which is also attributed to Molerats, further reinforces the connection.
+3. **Cloud-based storage and C2 operations**: The use of Dropbox, Facebook, Google Docs, and Simplenote platforms for command and control (C2) operations is consistent with Molerats' tactics, which often involve abusing cloud-based services to move laterally, store tools, and exfiltrate data.
+4. **Political motivation**: The report notes that the attackers use political themes to lure victims, which is a characteristic of Molerats' operations. The group is known to be motivated by political goals, with a primary focus on manipulating government officials and political figures in the Middle East.
+5. **Connection to Quasar RAT**: The report mentions the use of Quasar RAT, which is an open-source tool previously used by Molerats. This adds to the credibility of the attribution to Molerats.
+
+Based on these factors, I conclude that the incident is likely attributed to Molerats, also known as The Gaza Cybergang.

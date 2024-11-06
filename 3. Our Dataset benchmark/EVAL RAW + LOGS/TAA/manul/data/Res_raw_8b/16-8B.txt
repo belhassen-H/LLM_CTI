@@ -1,0 +1,13 @@
+Based on the techniques, tactics, and procedures (TTPs) described in the report, I attribute the incident to the Iranian threat actor group known as [PLACEHOLDER], specifically the subgroup DEV-1084 (DarkBit) and Mercury (also known as [PLACEHOLDER]).
+
+The report highlights several indicators of compromise (IOCs) and suspicious activity that point to an Iranian-state sponsored attack. Key evidence includes:
+
+1. The use of the "DarkBeatC2" framework, which is similar to previous C2 frameworks used by [PLACEHOLDER].
+2. The involvement of multiple Iranian threat actor groups, including DEV-1084 (DarkBit) and Mercury (also known as [PLACEHOLDER]).
+3. The use of phishing emails and webshells to gain initial access to victims' networks.
+4. The exploitation of vulnerabilities in remote administration tools (RATs) and internet of things (IoT) devices.
+5. The use of PowerShell scripts and other custom tools to establish command and control (C2) connections and exfiltrate data.
+6. The targeting of Israeli organizations and individuals, including educational institutions and companies in the private sector.
+7. The use of IOCs that are commonly used by [PLACEHOLDER], such as generic webshells, wipers, and ransomware.
+
+The report also provides context and additional information about [PLACEHOLDER]'s TTPs, including their use of fake hacktivist operations and "hack and leak" tactics to further their goals. Based on this information, I conclude that [PLACEHOLDER] is responsible for the incident described in the report.

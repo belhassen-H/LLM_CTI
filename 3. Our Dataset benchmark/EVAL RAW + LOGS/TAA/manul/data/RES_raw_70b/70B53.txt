@@ -1,0 +1,11 @@
+Based on the analysis of the threat report, I believe the incident is attributed to the known threat actor group APT41. Here's my reasoning:
+
+1. **Industry targeting**: APT41 is known to target Japanese companies, particularly those in the defense industry, which aligns with the targeted victims mentioned in the report.
+2. **Exploit usage**: APT41 has been observed using the CVE-2017-11882 vulnerability in previous campaigns, which is the same exploit used in this attack to gain initial access.
+3. **Malware and tools**: The use of Meterpreter, a popular penetration testing tool, is consistent with APT41's TTPs. Additionally, the 'HyperBro' malware name sounds similar to other malware names used by APT41, such as 'HyperScrape' and 'HyperLatch'.
+4. **C2 infrastructure**: The use of a compromised Wordpress site as a C2 server, along with the Fast Flux technique, is a common tactic employed by APT41 to evade detection.
+5. **DLL side-loading**: This technique has been observed in APT41's previous campaigns, allowing them to inject malware into legitimate system processes.
+6. **Fileless malware**: APT41 is known to use fileless malware techniques, storing malware in the Windows registry to avoid detection. This aligns with the report's description of the attackers using fileless malware techniques.
+7. **Timeframe**: The attack timeframe of August 2020 to January 2021 is consistent with APT41's known activity periods.
+
+While some of these individual indicators might not be unique to APT41, the combination of these TTPs and techniques, along with the targeting of Japanese defense companies, strongly suggests that APT41 is responsible for this incident.

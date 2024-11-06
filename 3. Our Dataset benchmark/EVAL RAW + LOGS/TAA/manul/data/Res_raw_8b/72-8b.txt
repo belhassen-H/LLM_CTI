@@ -1,0 +1,9 @@
+Based on the techniques, tactics, and procedures (TTPs) described in the threat report, I attribute the Android SpyNote attack to the FIN7 group. Here's my reasoning:
+
+1. **Similar attack vector**: FIN7 is known for using phishing emails and messages to trick victims into installing malware, which is similar to the "phishing SMS or email" described in the report.
+2. **Code obfuscation and anti-debugging techniques**: FIN7 has been observed using code obfuscation and anti-debugging techniques to evade detection, which is consistent with the report's mention of these techniques being used in the Android SpyNote malware.
+3. **Usage of Telegram API**: FIN7 has been linked to the use of Telegram API for communication with C2 servers, which matches the report's description of the malware using Telegram API for command and control.
+4. **Tactics and techniques**: The report mentions Masquerading (T1036), Input Capture (T1056), and Exfiltration Over C2 Channel (T1041) as techniques used in the attack. FIN7 has been observed using similar TTPs in other attacks, including masquerading as legitimate software and using input capture to steal sensitive data.
+5. **fingerprints dating back to 2019**: FIN7 has been active since at least 2015, and it's plausible that their fingerprints could be identified as far back as 2019, given their capabilities and motivations.
+
+While the report doesn't provide conclusive evidence, the combination of similarities in attack vectors, techniques, and tools, as well as the mention of fingerprinting dating back to 2019, leads me to attribute the Android SpyNote attack to the FIN7 group.

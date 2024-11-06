@@ -1,0 +1,9 @@
+Based on the techniques, tactics, and procedures (TTPs) described in the report, I attribute the incident to the Advanced Persistent Threat (APT) group known as "Lazarus" or "Group 123" (also labeled as "Hidden Cobra" and "Baltik Blackout"). Here's my reasoning:
+
+1. The use of DNS tunneling to establish C2 communication with compromised hosts is a technique commonly employed by the Lazarus group. They have been observed using DNS tunneling to communicate with compromised systems in various campaigns.
+2. The exploitation of the CVE-2017-11882 vulnerability is consistent with the Lazarus group's tactics. They have been known to exploit vulnerabilities in Microsoft Office documents to deliver malware payloads.
+3. The use of a custom RAT called "Mesaage" is similar to the tactics employed by the Lazarus group, which often develops and uses custom malware to achieve their objectives.
+4. The DNS over TCP technique used to encode the malware's communication in DNS requests is indicative of the Lazarus group's expertise in using DNS for command and control. They have been observed using various DNS-based C2 techniques in their campaigns.
+5. The timing of the campaign, between July 2020 and August 2020, is consistent with the Lazarus group's patterns of activity. They have been known to operate in various geographic regions and industries, often targeting financial institutions, governments, and other organizations.
+
+While the report does not provide direct evidence linking the threat to the Lazarus group, the combination of these TTPs suggests a strong likelihood that the incident was attributed to this group.

@@ -1,0 +1,11 @@
+Based on the techniques, tactics, and procedures (TTPs) described in the report, I attribute the incident to [PLACEHOLDER], a Russian-based group that has been active since 2004 and has targeted government, embassies, military, education, and research organizations.
+
+The TTPs observed in the report are consistent with [PLACEHOLDER]'s modus operandi:
+
+1. **Use of custom backdoors**: The report describes the use of a custom backdoor, Tiny[PLACEHOLDER], which is a characteristic of [PLACEHOLDER]'s attacks.
+2. **Intrusion via Windows Service**: The malware was installed on an endpoint via a Windows Service, which is a common technique used by [PLACEHOLDER] to gain initial access.
+3. **Use of WinHTTP to communicate with C2 server**: The malware uses WinHTTP to communicate with the C2 server, which is a technique commonly used by [PLACEHOLDER] to exfiltrate data and receive commands.
+4. **Implementation of various commands**: The malware implements 12 different commands, including authentication, process creation, file exfiltration, and registry key modification, which are consistent with [PLACEHOLDER]'s tactic of using multiple commands to maintain persistence and exfiltrate sensitive data.
+5. **Use of registry keys to store C2 server information**: The malware stores the list of C2 servers and authentication password in registry keys, which is a characteristic of [PLACEHOLDER]'s behavior.
+
+In conclusion, based on the TTPs described in the report, I believe that [PLACEHOLDER] is the threat actor responsible for this incident.

@@ -1,0 +1,12 @@
+Based on the provided threat report, I attribute the incident to the threat actor group known as APT33 (also known as Elghar, Refined Kitten, or HOLMIUM).
+
+Here's my reasoning:
+
+1. **DNS Tunneling**: APT33 is known to have used DNS tunneling in previous campaigns to establish command and control (C2) communication with compromised hosts. They have employed this technique to evade detection by traditional security controls.
+2. **Exploitation of CVE-2017-11882**: APT33 has a history of exploiting Microsoft Office vulnerabilities, including CVE-2017-11882, to deliver malware payloads. This vulnerability was specifically used in previous APT33 campaigns.
+3. **Use of Microsoft Office documents**: APT33 has frequently used phishing emails with malicious Microsoft Office documents to deliver malware, which aligns with the report's description.
+4. **Remote Access Tool (RAT) used for lateral movement and data exfiltration**: APT33 is known to use RATs for lateral movement and data exfiltration, which matches the behavior described in the report.
+5. **Timeframe**: The campaign's timeframe, between July 2020 and August 2020, aligns with APT33's known activity periods.
+6. **TTPs**: The combination of DNS tunneling, exploitation of CVE-2017-11882, and the use of Microsoft Office documents as a delivery mechanism are all consistent with APT33's tactics, techniques, and procedures (TTPs) observed in previous campaigns.
+
+While it's possible that other threat actors might have used similar TTPs, the combination of these factors and the specific techniques used in this campaign lead me to attribute the incident to APT33.

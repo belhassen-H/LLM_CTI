@@ -1,0 +1,11 @@
+Based on the provided threat report, I attribute the incident to the threat actor known as APT28 (also known as Fancy Bear, Sofacy, and Strontium). Here's my reasoning:
+
+1. **Use of phishing campaigns with lure documents**: APT28 is known for its phishing campaigns using sophisticated lure documents, often imitating government and NGO agencies, to target victims. This tactic is consistent with their modus operandi.
+2. **Geographic focus**: The reported targets, including Europe, the South Caucasus, Central Asia, and North and South America, align with APT28's historical targets, which have included Eastern European countries, NATO member states, and Western governments.
+3. **Malware and tools**: The mention of malware families like HeadLace, MASEPIE, OCEANMAP, and STEELHOOK, as well as the use of WebDAV servers, is consistent with APT28's toolset. OCEANMAP, in particular, has been linked to APT28 in the past.
+4. **Exploitation of vulnerabilities**: APT28 is known to exploit vulnerabilities in Microsoft products, such as the mentioned CVE-2023-23397 in Microsoft Outlook. This is a common tactic for the group.
+5. **Use of compromised infrastructure**: APT28 has been known to use compromised routers and botnets as part of their operations. The mention of compromised Ubiquiti routers hosting WebDAV servers and C2 servers is consistent with this behavior.
+6. **Constant evolution and adaptability**: The report highlights the threat actor's ability to adapt and evolve their tactics, techniques, and procedures (TTPs), which is a hallmark of APT28's operations.
+7. **Alias matches**: The aliases mentioned in the report, such as Blue Athena, BlueDelta, Fancy Bear, and Strontium, are all known aliases of APT28.
+
+Given these factors, I am confident in attributing the incident to APT28, also known as Fancy Bear or Strontium.

@@ -1,0 +1,10 @@
+Based on the techniques, tactics, and procedures (TTPs) described in the report, I believe the threat actor responsible for this incident is DarkHotel. My reasoning is as follows:
+
+1. The TTPs described, such as the use of spear phishing emails, exploit kits, and the specific Microsoft Office vulnerability (CVE-2012-0158), are consistent with DarkHotel's known modus operandi.
+2. The use of the "Inexsmar" RAT, which is designed to evade detection by security software, is also a characteristic of DarkHotel's tactics.
+3. The anti-forensic techniques employed, such as code injection and process hollowing, are commonly used by DarkHotel to hide their traces.
+4. The rotation of C2 domains and IP addresses, as well as the use of Domain Generation Algorithm (DGA) to create new C2 domains, are tactics known to be used by DarkHotel to avoid detection.
+5. The use of SSL/TLS encryption to encrypt communications with the C2 servers is also a common practice among advanced threat actors, including DarkHotel.
+6. Finally, the targeting of high-value individuals, such as business executives and government officials, during their travel, matches the DarkHotel group's known modus operandi.
+
+Given the combination of these TTPs andDarkHotel's known tactics, I am confident in attributing this incident to the DarkHotel threat actor group.

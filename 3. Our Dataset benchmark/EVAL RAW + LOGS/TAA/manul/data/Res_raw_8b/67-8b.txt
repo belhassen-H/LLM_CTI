@@ -1,0 +1,9 @@
+Based on the reported TTPs and techniques used in the cyber incident, I attribute the attack to APT10, also known as Cabur, a cyber espionage group attributed to China. Here's a breakdown of my reasoning:
+
+1. **Vulnerability exploitation**: The exploitation of CVE-2021-34473, a Microsoft Office vulnerability, is a common tactic used by APT10. This group has been known to exploit various Microsoft Office vulnerabilities in the past, including CVE-2017-11882 and CVE-2017-0102.
+2. **PlugX malware**: The use of PlugX, a Remote Access Tool (RAT), is a signature characteristic of APT10. PlugX is commonly used for lateral movement, data exfiltration, and C2 communication, which aligns with the primary objective of gathering sensitive information from targeted organizations.
+3. **Living Off The Land (LOTL)**: APT10 has been observed using LOTL techniques to remain stealthy and evade detection. The use of native OS tools and living off the target network is consistent with the group's tactics.
+4. **File Transfer Protocol (FTP)**: The use of FTP for C2 communication is unusual and may be an attempt to evade detection. APT10 has been known to use various communication protocols, including FTP, to communicate with its command and control servers.
+5. **Phishing emails**: The use of phishing emails with malicious Microsoft Office documents is a common tactic used by APT10. The group has been known to use socially engineered emails to deliver malware and payload.
+
+The overlap of these TTPs with previous known campaigns and the characteristics of PlugX malware strongly suggest that APT10 is responsible for this cyber incident.

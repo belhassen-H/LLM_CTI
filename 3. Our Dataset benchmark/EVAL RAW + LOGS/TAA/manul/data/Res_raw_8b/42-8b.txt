@@ -1,0 +1,12 @@
+Based on the TTPs described in the report, I attribute the incident to the UNC2452 group. Here's my reasoning:
+
+1. **Initial vector is a phishing email**: UNC2452 is known for using socially engineered attacks, including phishing emails and spear-phishing campaigns, to initiate their attacks.
+2. **Exploitation of a known vulnerability**: UNC2452 has been observed exploiting various vulnerabilities, including CVE-2017-11882, to deliver their malware payloads.
+3. **Use of a modified open-source tool**: UNC2452 has been known to modify and use open-source tools, such as ScreenConnect, to facilitate reconnaissance and lateral movement.
+4. **Employment of WMI**: UNC2452 has been observed using Windows Management Instrumentation (WMI) to execute commands and gather system information, which is consistent with this report.
+5. **DNS tunneling for C2**: UNC2452 has been known to use DNS tunneling to communicate with their C2 servers, using techniques like using the DnsClient API to send and receive data.
+6. **Anti-forensic techniques**: UNC2452 is known for employing anti-forensic techniques, such as clearing event logs and disabling security software, to evade detection and cover their tracks.
+
+The time frame of the attack (June-September 2022) also correlates with the UN2452's known activity during this period.
+
+While the report doesn't explicitly mention the threat actor group, the described TTPs are consistent with the M.O. of UNC2452, a Chinese state-sponsored threat actor known for their advanced malware capabilities and tactics.

@@ -1,0 +1,11 @@
+Based on the techniques, tactics, and procedures (TTPs) described in the threat report, I attribute the PortDoor malware attack to the Chinese APT group, A41, also known as the Winnti Group. Here's my reasoning:
+
+1. **Exploitation of a vulnerability in a Taiwanese software company's web application**: Winnti Group is known for targeting Asian organizations, particularly those in Taiwan and China, and exploiting vulnerabilities to deliver malware.
+2. **Use of a custom protocol to communicate with the C2 server**: This is a typical technique used by A41 to communicate with their command and control servers, making it difficult to detect.
+3. **TLS poisoning**: This is a technique commonly used by Chinese APT groups to disguise malicious traffic as legitimate TLS traffic, evading detection by security measures.
+4. **Employment of anti-forensic techniques**: A41 is known for using anti-forensic techniques to evade detection, such as deleting system logs and modifying file timestamps.
+5. **DLL hijacking**: This is a typical persistence technique used by Winnti Group to inject a malicious DLL into a legitimate process, allowing them to maintain persistence on the system.
+6. **Espionage-oriented motives**: The attack's motives, targeting intellectual property and sensitive information, are consistent with the typical goals of A41, which is believed to be motivated by espionage and intellectual property theft.
+7. **Geographic targeting**: The majority of victims being located in Taiwan is consistent with Winnti Group's typical targeting of Asian organizations, particularly Taiwan and China.
+
+Overall, the combination of techniques, tactics, and procedures described in the report matches the modus operandi of the Winnti Group, attributing the PortDoor malware attack to this Chinese APT group.

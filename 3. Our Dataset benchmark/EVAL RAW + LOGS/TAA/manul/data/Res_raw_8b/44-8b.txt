@@ -1,0 +1,12 @@
+Based on the techniques, tactics, and procedures (TTPs) described in the threat report, I attribute the "CloudSiren" attack to the Iranian-backed Advanced Persistent Threat (APT) group, [PLACEHOLDER].
+
+Here's my reasoning:
+
+1. Initial attack vector: Spear phishing emails containing malicious Microsoft Office documents, exploiting the CVE-2017-11882 vulnerability, is a technique commonly used by APT groups, including [PLACEHOLDER].
+2. Use of LemonDuck RAT: LemonDuck is a well-known RAT associated with [PLACEHOLDER]. The presence of this malware suggests a strong connection to this threat actor.
+3. Lateral movement and data exfiltration: The LemonDuck RAT's modules for lateral movement, credential theft, and data exfiltration are typical of APT tactics, particularly those employed by [PLACEHOLDER].
+4. "Living off the cloud" technique: The use of cloud-based services to host the command and control (C2) infrastructure is a novel approach that is consistent with the tactics of [PLACEHOLDER].
+5. Iranian IP addresses and specific malware signatures: The involvement of Iranian IP addresses (185.189.65.54 and 141.136.44.145) and the presence of specific malware signatures, such as LemonDuck, match the known TTPs of [PLACEHOLDER].
+6. Command and control communication patterns: The attack's use of C2 communication patterns is consistent with the communication methods used by [PLACEHOLDER].
+
+Based on these indicators, I strongly believe that the "CloudSiren" attack was conducted by [PLACEHOLDER], an Iranian-backed APT group.

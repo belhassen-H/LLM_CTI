@@ -1,0 +1,9 @@
+Based on the provided report, I attribute the cyber incident to Advanced Persistent Threat (APT) 28, also known as Iron Hemlock or APT28. My reasoning is as follows:
+
+1. **Air-Gap Jumping**: The use of a transmitter to send malware between air-gapped machines is a unique technique employed by APT28. This technique is a hallmark of this group's operations, as seen in their 2017 attack on the Ukrainian power grid.
+2. **Social Engineering**: APT28 is known for using sophisticated social engineering tactics, such as tricking victims into inserting infected USB drives or opening phishing emails. This tactic is consistent with their modus operandi.
+3. **Custom-Made Malware**: The use of a custom-built implant to control infected machines remotely is a characteristic of APT28's malware. Their malware is often designed to evade detection and has complex code injection and API hooking capabilities.
+4. **Duration of Attack**: The timeframe of the attack, spanning from February 2018 to November 2020, is consistent with APT28's typical attack duration. This group is known for conducting long-term, persistent attacks aimed at specific targets.
+5. **Targeted Attacks**: The report describes a targeted attack on an air-gapped network, which is a common tactic employed by APT28. They typically target organizations in the defense, nuclear, and financial sectors.
+
+APT28, also known as Fancy Bear or Sandworm Team, is a well-known APT group associated with Russian intelligence. Their attacks often aim to steal sensitive information, disrupt critical infrastructure, or conduct espionage. The described attack's techniques, tactics, and procedures are consistent with APT28's modus operandi, leading me to attribute the incident to this group.

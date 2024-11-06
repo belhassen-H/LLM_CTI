@@ -1,0 +1,12 @@
+Based on the techniques, tactics, and procedures (TTPs) described in the report, I believe the threat actor responsible for this incident is Conti/Ransomware gang (also known as Wizard Spider).
+
+Here's my reasoning:
+
+1. **Droppers used**: The report mentions IcedID, SystemBC, Pikabot, Smokeloader, and Bumblebee, which are all known droppers used by Conti/Ransomware gang in their operations.
+2. **Ransomware deployment**: The report states that these droppers are used to deploy ransomware, which is a common modus operandi for Conti/Ransomware gang.
+3. **Phishing campaigns and compromised websites**: The report mentions that Bumblebee is distributed mainly via phishing campaigns or compromised websites, which is a typical delivery method used by Conti/Ransomware gang.
+4. **Global impact and infrastructure**: The operation's global impact and the takedown of over 100 servers worldwide are consistent with Conti/Ransomware gang's known capabilities and scope.
+5. **Cryptocurrency earnings**: The report mentions that one of the main suspects earned at least EUR 69 million in cryptocurrency by renting out criminal infrastructure sites to deploy ransomware, which is consistent with Conti/Ransomware gang's known business model.
+6. **Law enforcement coordination**: The level of international coordination and cooperation between law enforcement agencies, as well as the involvement of private partners, is similar to previous operations against Conti/Ransomware gang.
+
+While the report doesn't provide direct evidence of Conti/Ransomware gang's involvement, the cumulative evidence from the TTPs and tactics described points towards their responsibility for this incident.

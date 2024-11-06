@@ -1,0 +1,11 @@
+Based on the analysis of the report, I attribute the incident to the Equation Group, a threat actor believed to be affiliated with the National Security Agency (NSA) of the United States.
+
+My reasoning is as follows:
+
+1. The report mentions that the backdoor "Bvp47" was found to be related to the hacking files published by "The Shadow Brokers", which is known to have leaked NSA's hacking tools and documents.
+2. The private key used to remotely trigger the backdoor Bvp47 was found in the Shadow Brokers' published files, linking Bvp47 to the NSA.
+3. The report mentions that the procedures and attack operation manuals disclosed by Shadow Brokers match the NSA's network attack platform operation manual exposed by Edward Snowden in the Prism incident, further supporting the link to the NSA.
+4. The scope and duration of the attacks, exceeding 287 targets in 45 countries over 10 years, suggest a highly sophisticated and well-resourced actor, consistent with the capabilities of the NSA.
+5. The report's description of the Equation Group as a "world's leading cyber-attack group" and "first-class hacking group" with "unstoppable" network attack capabilities and "little effort" data acquisition under covert control is consistent with the known TTPs of the Equation Group.
+
+Overall, the cumulative evidence points to the Equation Group, a sophisticated threat actor affiliated with the NSA, as the responsible party for the Bvp47 backdoor and the associated cyber incidents.

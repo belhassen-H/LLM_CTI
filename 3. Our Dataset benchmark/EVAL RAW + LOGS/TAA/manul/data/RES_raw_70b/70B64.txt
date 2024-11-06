@@ -1,0 +1,13 @@
+Based on the techniques, tactics, and procedures (TTPs) described in the report, I believe the threat actor responsible for the incident is Lazarus Group (also known as APT38).
+
+Here's my reasoning:
+
+1. **North Korean-backed APT group**: The report mentions that the attackers are a notorious North Korean-backed APT group, which aligns with Lazarus Group's known profile.
+2. **Use of exploit kits and CVE-2018-8174**: Lazarus Group is known to utilize exploit kits and has previously exploited vulnerabilities in Internet Explorer, including CVE-2018-8174, which is a Use-After-Free (UAF) vulnerability.
+3. **Spear-phishing and compromised websites**: Lazarus Group frequently employs spear-phishing tactics and has been observed using compromised websites to host malicious content.
+4. **Remote Access Trojan (RAT) capabilities**: The malicious payload described in the report, capable of stealing sensitive information, monitoring user activity, and providing backdoor access, matches the capabilities of RATs commonly used by Lazarus Group.
+5. **Code obfuscation, anti-debugging, and anti-forensic techniques**: These evasion techniques are consistent with Lazarus Group's TTPs, which often involve sophisticated methods to avoid detection.
+6. **C2 servers in China**: Lazarus Group is known to use infrastructure in China for their C2 servers.
+7. **Malicious payload written in Korean and English**: This language mix is another indicator of Lazarus Group's involvement, as they often use Korean-language resources and have been linked to North Korea.
+
+While the report replaces the threat actor group name with [PLACEHOLDER], the combination of these TTPs and characteristics points strongly to Lazarus Group as the responsible threat actor.

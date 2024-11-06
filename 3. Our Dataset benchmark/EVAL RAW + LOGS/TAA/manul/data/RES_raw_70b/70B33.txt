@@ -1,0 +1,9 @@
+Based on the report, I believe the threat actor responsible for this campaign is Dark Caracal, a cyber mercenary group. Here's why:
+
+1. **Previous research**: The report mentions that the researchers from EFF and Lookout Security have been following the activities of this group since 2018, which suggests a continuous effort to track the group's operations.
+2. **Bandook spyware**: The use of Bandook spyware, which was previously associated with Dark Caracal, is a strong indicator of the group's involvement. The fact that the new versions of Bandook have been updated with more commands and capabilities further supports this attribution.
+3. **Geographic focus**: The campaign's focus on Latin America, particularly the Dominican Republic and Venezuela, is consistent with Dark Caracal's previous operations in the region.
+4. **Tactics, Techniques, and Procedures (TTPs)**: The report highlights the use of phishing-related domains, which is a known TTP of Dark Caracal. The group's history of working with national governments on politically motivated campaigns also aligns with the report's findings.
+5. **ESET's research**: The report mentions ESET's previous research on Dark Caracal, which adds credibility to the attribution.
+
+While the report does not provide direct evidence of Dark Caracal's involvement, the cumulative evidence from the TTPs, geographic focus, and previous research points strongly towards Dark Caracal as the responsible threat actor.

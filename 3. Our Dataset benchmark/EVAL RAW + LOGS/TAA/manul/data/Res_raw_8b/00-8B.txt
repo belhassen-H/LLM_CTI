@@ -1,0 +1,11 @@
+Based on the TTPs and characteristics described in the report, I attribute the incident to the APT32 (also known as Iron Tiger) threat group. Here's my reasoning:
+
+1. The report mentions that the malware strains used by the threat group, Volgmer and Scout, have been used in attacks since 2014 and have undergone changes over time. APT32 is known for its long-term campaigns and adaptability.
+2. The use of backdoors as primary malware, such as Volgmer, is a common tactic employed by APT32. They often use a variety of backdoors to maintain persistence and control over infected systems.
+3. The report highlights the use of a dropper to install Volgmer, which creates a password-protected compressed version of the malware in the resource area before registering it as a service. This tactic is similar to that used by APT32 in previous attacks.
+4. The use of a batch file for self-deletion, specifically the file name "pdm.bat", is an unusual tactic that is not commonly seen in other threat groups. APT32 is known for its creative and often unusual tactics.
+5. The report mentions the use of the 0x10 byte-sized key used for decryption, which is related to the Andariel group, a subsidiary group of APT32. This further suggests a connection to APT32.
+6. The logic used to generate strings for the name of the Volgmer DLL file and the name and description of the service to be registered is unique and not commonly seen in other threat groups. APT32 is known for its creative and adaptive tactics.
+7. The report's mention of the use of ZIP compression algorithm and password-protected encryption is also consistent with APT32's tactics.
+
+Based on these TTPs and characteristics, I believe that the incident is likely attributed to APT32 (Iron Tiger).

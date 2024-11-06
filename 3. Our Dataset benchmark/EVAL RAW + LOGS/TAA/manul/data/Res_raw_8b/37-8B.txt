@@ -1,0 +1,11 @@
+Based on the threat report, I attribute the incident to the "Gaza Cybergang" threat actor group.
+
+Here's my reasoning:
+
+1. The report mentions an Arabic-language, politically-motivated cybercriminal group operating since 2012, targeting the MENA region, which matches the profile of the Gaza Cybergang group.
+2. The report highlights the group's interest in government entities, oil and gas organizations, media, and activists, which is consistent with their previously known targets.
+3. The use of the CVE 2017-0199 vulnerability, Microsoft Access files with embedded macros, and the discovery of mobile malware on one of their command servers in April 2017, are all techniques and tactics that align with the Gaza Cybergang's known methods.
+4. The report mentions the group's ability to bypass defenses and persist for prolonged periods, which is a capability previously attributed to the Gaza Cybergang group.
+5. The presence of indicators of compromise (IOCs) and malware files with identical hash values to those previously reported by Kaspersky Lab, further reinforces the connection to the Gaza Cybergang group.
+
+Given the evidence presented, I conclude that the Gaza Cybergang group is responsible for the cyber incident described in the report.

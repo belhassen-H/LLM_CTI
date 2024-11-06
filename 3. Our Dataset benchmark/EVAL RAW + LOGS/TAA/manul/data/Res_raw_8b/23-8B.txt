@@ -1,0 +1,9 @@
+Based on the analysis, I attribute the cyber physical incident to Russia-linked threat actor [PLACEHOLDER]. The incident involved a novel attack against operational technology (OT) systems, which is consistent with [PLACEHOLDER]'s modus operandi. Here are the reasons for attributing the incident to [PLACEHOLDER]:
+
+1. Techniques, Tactics, and Procedures (TTPs): The incident involves the use of novel OT-level living off the land (LotL) techniques, which is a signature TTP of [PLACEHOLDER]. The actor used LotL techniques to execute malicious control commands to switch off substations, and also deployed a new variant of CADDYWIPER in the IT environment, which is a tool commonly used by [PLACEHOLDER].
+2. Attack vector: The actor gained access to the OT environment through a hypervisor that hosted a supervisory control and data acquisition (SCADA) management instance, which is a common attack vector used by [PLACEHOLDER].
+3. Tools and techniques: The actor used tools and techniques that are consistent with [PLACEHOLDER]'s arsenal, including the use of a native Living off the Land binary (LotLBin) and the deployment of a new variant of CADDYWIPER.
+4. Geo-political context: The incident occurred during a time of conflict between Ukraine and Russia, which is consistent with [PLACEHOLDER]'s known motivations and goals.
+5. historical activity: [PLACEHOLDER] has been responsible for a number of similar incidents in Ukraine, including the 2015 and 2016 Ukraine blackout events, which involved the use of OT-level malicious code to disrupt critical infrastructure.
+
+Overall, the incident is consistent with [PLACEHOLDER]'s known TTPs, attack vectors, and tools, and it is likely that the group was responsible for the incident.
